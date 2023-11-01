@@ -1,0 +1,28 @@
+created: '2023-10-17T05:57:44.045804+00:00'
+modified: '2023-10-17T05:57:44.045804+00:00'
+entry:
+  _id: 980aad4a-45da-4265-87ad-9edc572e85ed
+  _name: Specialty What's Included
+  _slug: specialty-whats-included
+  type: featuredCallout
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692274260/products/JavaDrip_Specialty_2_m7ett5_s1oy3o.jpg
+    title:
+      type: text
+      value: Specialty What's Included
+    description:
+      type: text
+      value: |-
+        WHAT'S INCLUDED:
+
+        - 50 oz. (10-cup) glass carafe
+        - Fold-away frother
+        - Recipe inspiration guide
+        - Gold-tone permanent filter
+        - Smart Scoop
+        - Removable water reservoir
+        - Quick Start guide
+        - Owner's Guide

@@ -1,0 +1,23 @@
+created: '2023-10-17T05:57:44.079786+00:00'
+modified: '2023-10-17T05:57:44.079786+00:00'
+entry:
+  _id: 5ebde1f4-772c-42a4-90a6-d6327660f521
+  _name: Taste the future
+  _slug: taste-the-future
+  type: featuredCallout
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267184/coffee-marketing/cervello_smart_landing_hero_kh0vi3_rjpun1_qfuwvv.png
+    title:
+      type: text
+      value: Taste the future
+    description:
+      type: text
+      value: >-
+        Combining the greatest traditions with cutting edge technology, the
+        Smart Home Barista puts decades of coffee experience at your fingertips.
+        By learning your tastes and assessing the beans, the smart barista
+        adjusts the grind, pressure and length of each espresso shot to make
+        sure it’s perfect every time.

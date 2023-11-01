@@ -1,0 +1,550 @@
+created: '2023-10-17T06:38:45.753983+00:00'
+modified: '2023-10-17T08:47:49.139147+00:00'
+entry:
+  _id: 68cb3ad9-72b9-46c8-b45f-3affe6fef78f
+  _name: French Press - What is It and History of It
+  _slug: french-press
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Editorial
+    title:
+      type: text
+      value: French Press - What is It and History of It
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "A coffee plunger, a cafetière, a press pot or plunger pot and of course, simply French press has many names. But why so many of us like it?\_I guess it's\_be because it brings a cafe experience to home and makes delicious, rich, full-bodied brew. French press is so common that one would not call it a specialty coffee brewer, and yet you just might be wrong. The famous James Hoffman (whose youtube video tutorial\_is the most\_viewed one) validated it to be a specialty coffee brewer – hooray. ?"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The\_History of La Cafetiere"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    So, a bit of history is necessary in any article, isn't so?
+                    The fact that the first design on earth was done by the
+                    Frenchmen in 1852, is correct, but it was without a seal
+                    inside the carafe. There‘s a bit of debate as you can
+                    imagine regarding who invented it. French or Italians?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "You might not know but the cafetiere was invented and first patented in Italy, by the Italian, Milanese designer Attilio Calimani in 1933 or some say even in 1929.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Later in the years of perfecting the device, a by Swiss guy Faliero Bondanini designed the coffee plunger in \_1958 we know or at least French do know – glass vessel, round handle, steel lid. \_The device became so popular as it was called by the company who produced it –\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Chambord. The Martin S.A company, called Chambord, produced it until it was bought by the Danish\_ Bodum\_in 1991. And that is why, younger generation might simply refer to cafetiere as Bodum (good danes kept the Chambord design original). \_But it took some time for the gadget to arrive to United States and also for dictionaries to accept the term."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    *Interesting fact: Bodum company attempted to register
+                    “French Press” as a trademark in several territories, but
+                    was cut out in the U.S.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    This timeless design of heat-resistant Pyrex glass beaker,
+                    black durable bakelite plastic, chrome frame and handle made
+                    its way to the big world. The popularity hasn‘t shrunk from
+                    the first launch. Why? Because the simple and modest design
+                    follows practicality: easy to dismantle, thus clean and
+                    replace any parts. Genius idea, huh? And cool thing is that
+                    those plunger pots have not deviated from the original
+                    design so much. Of course companies evolve and manufacture
+                    them in zillions of colors and materials, the simplicity and
+                    design remains almost the same, well-known and dear. Brands
+                    like Hario, Bialetti, Barista & Co and OXO all offer their
+                    own version of design and style.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Water temperature and quality play a big role in coffee
+                    brewing.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Just to remember, if somebody asks you – French press is a full immersion brewing device not a pour over and\_it brews\_full-bodied coffee with more oils and texture in the remaining product as well as sandy mouthfeel. While controlling water temperature, grind size and brew time, it is possible to experience more subtle aromas and flavors of each brew."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    So how to make fresh, delicious and full-bodied coffee?
+                    Let‘s get to it.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: How to brew with French press
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "So, one would say that they know it all and it is easy peasy to make coffee with French Press: put the coffee and hot water, wait four minutes, plunge and enjoy. And I would agree, but\_to make a great tasting coffee, I‘ll just leave the essentials here."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "So, nothing new to say when preparing to brew\_coffee: make sure your coffee is fresh, grind according to your method and take care of water temperature."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Remember to set aside a time for making coffee with
+                    excellent coffee beans on hand.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: French press requires a bit coarser grind.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Select a recipe – I\_would recommend 60 g of coffee to 900 ml- 1000 ml\_of water, water temperature 92-94 C (a small French Press, then 30 g of coffee and 500 ml of water)."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Grind size – medium coarse, granules rather than sand
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee dose or brew ratio is rather simple, 1:15 – or 15 g
+                    of coffee per every 225 g of water. Adjust until you find
+                    what suits your taste best.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Water temperature and fresh, filtered, soft water – try
+                    brewing with 94 C, 92C and 90 C of water and experiment with
+                    taste.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Brew time – 4 minutes is a recommended time, a golden
+                    standard so to say.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: BREW PROCESS - INSPIRED BY JAMES HOFFMAN
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Pour the freshly ground coffee
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Pour the water slowly to ensure that all of\_the grounds are saturated."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Wait for 4 minutes
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    After 4 minutes, stir the crust, take whats left on the
+                    surface with the spoon, discard
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Wait for 5 or 7 more minutes – it‘s still too hot to drink so go make breakfast, gaze thru the window or read. Because the longer you leave it, the better it will taste.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "After 5-7 minutes of waiting impatiently, plunge it down delicately till its sitting on the surface of the coffee (do not press heavily down as you will stir all the sediments).\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Now pour the most delicious coffee to your favorite cup.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Enjoy the coffee moment you just made for yourself.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'FRENCH PRESS WHAT IFS:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Quite hard to press the filter down? Your grind is too fine;
+                    conversely if there is minimal resistance then the grind is
+                    too coarse. Play with all the variables if the taste doesn't
+                    please you. Making coffee should be enjoyable and
+                    experimental!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Want real kick of caffeine – keep it in french press and drink it once cool. If not - serve immediately after brewing (The longer you keep coffee in cafetiere, the more bitter and more extracted your coffee will be). If you are not going to drink all the coffee at once, pour it into another glass or server.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Cleaning is really TOP priority for flavorful coffee, so
+                    clean often and really thoroughly, as old coffee grounds
+                    have the tendency to stuck in the filters, will have no
+                    mercy on your fresh coffee. Most filters can be disassembled
+                    for cleaning
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    *Interesting fact no. 2: George Howell, an American
+                    specialty coffee pioneer in early 1970s, who started Coffee
+                    Connection who was later acquired by the Starbucks
+                    Corporation – he and the team used only French press to
+                    serve their origins coffee (and they would sometimes have 12
+                    origins on the menu). Imagine that, all brewed with a French
+                    press at that time. But hey, it does have a great potential
+                    to brew delicious cup.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697532369/coffee-marketing/french_press_header_image_ln3wpr.jpg
+    description:
+      type: text
+      value: >-
+        So, what do we know about French press? It comes from France, it‘s
+        famous all around the globe, it‘s brewed at minutes notice, serves
+        several people and gets you caffeinated so easily.  So let‘s dig into
+        the history and uses of French press.

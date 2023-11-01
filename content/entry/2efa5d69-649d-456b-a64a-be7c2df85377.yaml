@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.005592+00:00'
+modified: '2023-10-17T10:42:35.005592+00:00'
+entry:
+  _id: 2efa5d69-649d-456b-a64a-be7c2df85377
+  _name: COFFEE BEANS
+  _slug: coffee-beans
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267285/coffee-marketing/hero-beans_q7qtiv_h4dvc5.webp
+    title:
+      type: text
+      value: COFFEE BEANS
+    description:
+      type: text
+      value: ''

@@ -1,0 +1,24 @@
+created: '2023-10-17T07:36:11.75616+00:00'
+modified: '2023-10-17T07:36:11.75616+00:00'
+entry:
+  _id: 3e257825-e30a-4b25-8d02-e4a276d8b2a9
+  _name: AI-powered taste customization
+  _slug: ai-powered-taste-customization
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693306817/coffee-icons/icon__equalizer__mod7sx.svg
+    title:
+      type: text
+      value: AI-powered taste customization
+    productId:
+      type: text
+      value: espresso-gpt-145
+    description:
+      type: text
+      value: >-
+        We understands your palette After just a few uses, EspressoGPT learns to
+        brew your espresso to your exact liking, adjusting grind size, water
+        temperature, and brewing time.

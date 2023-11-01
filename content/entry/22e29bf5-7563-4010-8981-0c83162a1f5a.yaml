@@ -1,0 +1,11 @@
+created: '2023-10-18T14:13:58.816984+00:00'
+modified: '2023-10-18T14:15:27.784763+00:00'
+entry:
+  _id: 22e29bf5-7563-4010-8981-0c83162a1f5a
+  _name: 'Bean There, Asked That:'
+  _slug: bean-there-asked-that
+  type: faq
+  fields:
+    title:
+      type: text
+      value: 'Bean There, Asked That:'

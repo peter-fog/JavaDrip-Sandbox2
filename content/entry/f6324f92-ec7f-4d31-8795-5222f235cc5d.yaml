@@ -1,0 +1,22 @@
+created: '2023-10-17T07:10:22.776454+00:00'
+modified: '2023-10-17T07:10:48.951829+00:00'
+entry:
+  _id: f6324f92-ec7f-4d31-8795-5222f235cc5d
+  _name: Thanks, we will reach back to you shortly!
+  _slug: new-entry-form
+  type: form
+  fields:
+    errorSubmitText:
+      type: text
+      value: 'Uh oh, something went wrong. Try again later. '
+    errorSubmitImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692271669/coffee-icons/error_submit_hxqzt5_d5tgmy.svg
+    successfulSubmitText:
+      type: text
+      value: Thanks, we will reach back to you shortly!
+    successfulSubmitImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692271669/coffee-icons/success_submit_zioib5_owypzu.svg

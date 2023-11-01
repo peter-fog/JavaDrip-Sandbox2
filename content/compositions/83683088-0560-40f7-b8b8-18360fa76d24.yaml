@@ -1,0 +1,58 @@
+composition:
+  _name: Accordion (uc)
+  _id: 83683088-0560-40f7-b8b8-18360fa76d24
+  type: accordion
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/FAQ Header Content/entry/fields/title/value}
+  slots:
+    items:
+      - _id: 444d78df-69e5-4747-95dc-56d59555e66d
+        type: $loop
+        slots:
+          body:
+            - _id: 0c0744e4-1779-42d7-bfc8-83c9fba50db3
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/FAQ List Content entries Loop
+                    Item/entry/fields/title/value}
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/FAQ List Content entries Loop
+                    Item/entry/fields/description/value}
+              _overridability:
+                parameters:
+                  title: 'yes'
+                  description: 'yes'
+        _dataResources:
+          FAQ List Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /FAQ List Content/entries
+  _dataResources:
+    FAQ List Content:
+      type: multipleFaq
+      variables:
+        entryIds: >-
+          f21248f8-f3b4-44ae-bb51-75a4d11d0cd5,fc090a5f-d58c-4c28-957c-a7de70e2f42f,953da7fd-853e-47ab-9a69-0f0320056328
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    FAQ Header Content:
+      type: faq
+      variables:
+        entryId: 77a344a2-869b-4eb6-aff2-430b114c6f07
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+created: '2023-10-18T13:56:34.355327+00:00'
+modified: '2023-10-19T09:00:11.642143+00:00'
+pattern: true
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

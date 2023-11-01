@@ -1,0 +1,24 @@
+id: algoliaProductsQuery
+displayName: Products Query
+ttl: 30
+body: ${body}
+path: ${path}
+custom:
+  facetName: rootCategories
+  imagePath: thumbnailImage
+  indexName: products-ngm
+  displayField: name
+method: POST
+purgeKey: 13ed60cf-c916-409e-9af7-0dddb5c63b7e
+archetype: queryEntry
+variables:
+  body:
+    type: text
+    default: '{ "query": "unknown" }'
+    displayName: Body
+  path:
+    type: text
+    default: /*/objects
+    displayName: Path
+dataSourceId: algoliaDataSource
+allowedOnComponents: []

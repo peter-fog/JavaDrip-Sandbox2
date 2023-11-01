@@ -1,0 +1,41 @@
+created: '2023-10-17T07:57:47.99566+00:00'
+modified: '2023-10-17T07:57:47.99566+00:00'
+entry:
+  _id: 1d328970-f50b-4b30-a2a7-78cd947faa25
+  _name: The zero-gravity brewing mode is not just a feature
+  _slug: the-zero-gravity-brewing-mode-is-not-just-a-feature
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: '2023-07-03'
+    stars:
+      type: text
+      value: '4'
+    title:
+      type: text
+      value: The zero-gravity brewing mode is not just a feature
+    picture:
+      type: image
+      value: URL of person's profile pic
+    lastName:
+      type: text
+      value: Selman
+    location:
+      type: text
+      value: ''
+    firstName:
+      type: text
+      value: Emily
+    productId:
+      type: text
+      value: espresso-gpt-145
+    experience:
+      type: text
+      value: >
+        The zero-gravity brewing mode is not just a feature; it's an experience
+        that takes you on a journey every single time. And the self-cleaning
+        mechanism? Pure genius! I never thought I'd be this excited about a
+        coffee machine, but the EspressoGPT isn't just any machine. It's a
+        testament to how far technology can go to perfect something as timeless
+        as coffee.",

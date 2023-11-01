@@ -1,0 +1,92 @@
+composition:
+  _name: Product Info (alg)
+  _id: 74cc4c81-50de-4bcc-a05a-00ad738a3f45
+  type: productInfo
+  parameters:
+    image:
+      type: image
+      value: ${#jptr:/Product Content/results/0/images/0/url}
+    title:
+      type: text
+      value: ${#jptr:/Product Content/results/0/name}
+    product:
+      type: json
+      value: ${#jptr:/Product Content/results/0}
+    fullHeight:
+      type: checkbox
+      value: true
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      value: ${#jptr:/Product Content/results/0/description}
+    overlayColor:
+      type: tp-color-style-parameter
+      value: base-300
+    highlightText:
+      type: text
+      value: $${#jptr:/Product Content/results/0/price}
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 50%
+    primaryButtonCopy:
+      type: text
+      value: Buy now
+    primaryButtonStyle:
+      type: tp-button-style-parameter
+      value: secondary
+    secondaryButtonCopy:
+      type: text
+      value: Taste the future
+    secondaryButtonLink:
+      type: link
+      value:
+        path: /coffee-makers
+        type: projectMapNode
+        nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+        projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+  _dataResources:
+    Product Content:
+      type: algoliaProduct
+      variables:
+        body: >-
+          {"requests":[{"indexName":"products-ngm","objectID":"espresso-gpt-145"}]}
+        entryIds: espresso-gpt-145
+        facetValue: ''
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      delay: 'yes'
+      image: 'yes'
+      title: 'yes'
+      product: 'yes'
+      duration: 'yes'
+      features: 'yes'
+      subTitle: 'yes'
+      objectFit: 'yes'
+      fullHeight: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      overlayColor: 'yes'
+      animationType: 'yes'
+      highlightText: 'yes'
+      animationOrder: 'yes'
+      overlayOpacity: 'yes'
+      animationPreview: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+created: '2023-09-28T09:23:30.739166+00:00'
+modified: '2023-10-03T09:48:16.646019+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Product_Info_preview_image
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5

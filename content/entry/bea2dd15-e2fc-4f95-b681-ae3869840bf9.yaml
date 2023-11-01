@@ -1,0 +1,21 @@
+created: '2023-10-17T05:55:32.668031+00:00'
+modified: '2023-10-17T05:55:32.668031+00:00'
+entry:
+  _id: bea2dd15-e2fc-4f95-b681-ae3869840bf9
+  _name: International Bean taster
+  _slug: international-bean-taster
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269571/promotion/bundle_deal_szroz7_cqzha2.svg
+    title:
+      type: text
+      value: International Bean taster
+    description:
+      type: text
+      value: |-
+        Try our International Bean bundle for 25% off!
+
+        global-taster

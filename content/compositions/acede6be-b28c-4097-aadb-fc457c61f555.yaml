@@ -1,0 +1,202 @@
+composition:
+  _name: Articles
+  _id: acede6be-b28c-4097-aadb-fc457c61f555
+  _slug: articles
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: Articles Page
+  slots:
+    pageFooter:
+      - _id: 1347f7c8-72db-4e4d-b0b9-54aa9e3a4bc1
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 4a6029d3-4705-4a42-a8fb-062d26adfda4
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 2a06af5c-f382-411b-9272-5552bf0acecd
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: image
+            value: >-
+              https://res.cloudinary.com/uniform-demos/image/upload/v1692271238/coffee-marketing/hero_alt4_iuvgjz_sld3xs_keidl5.webp
+          title:
+            type: text
+            value: Curated articles on coffee making
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          eyebrowText:
+            type: text
+            value: learn from the best
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: b186549c-aa81-4253-8a5e-f01f426d93b2
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: c232065b-cb01-4a9f-bdc9-594b01177c69
+        type: container
+        slots:
+          container-inner:
+            - _id: 15b25100-099e-426c-8f4f-8792cac7a0f8
+              type: content
+              parameters:
+                title:
+                  type: text
+                  value: Articles
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+            - _id: b9ef9d8b-c1a8-491d-9501-4b98e4e995f8
+              type: spacer
+              parameters:
+                thickness:
+                  type: tp-slider-parameter
+                  value: 50px
+            - _id: 660be9d7-2ec3-4b46-9ffd-0c91484bf1e4
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: 2171b30b-6dbe-46ba-ac21-9441378b9ef5
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: adfb7e59-cdb0-41c5-856b-b21499c7ac27
+                          type: card
+                          parameters:
+                            image:
+                              type: image
+                              value: >-
+                                ${#jptr:/Articles Content items Loop
+                                Item/thumbnail/url}
+                            title:
+                              type: text
+                              value: ${#jptr:/Articles Content items Loop Item/title}
+                            buttonCopy:
+                              type: text
+                              value: Read Article
+                            buttonLink:
+                              type: link
+                              value:
+                                path: >-
+                                  /articles/${#jptr:/Articles Content items Loop
+                                  Item/slug}
+                                type: projectMapNode
+                                nodeId: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  article-slug: >-
+                                    ${#jptr:/Articles Content items Loop
+                                    Item/slug}
+                            buttonStyle:
+                              type: tp-button-style-parameter
+                              value: link
+                            description:
+                              type: text
+                              value: >-
+                                ${#jptr:/Articles Content items Loop
+                                Item/description}
+                            textColorVariant:
+                              type: select
+                              value: Dark
+                            lineCountRestriction:
+                              type: tp-slider-parameter
+                              value: '5'
+                    _dataResources:
+                      Articles Content items Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Articles Contentstack/entries
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: medium
+                gapY:
+                  type: tp-slider-parameter
+                  value: medium
+                title:
+                  type: text
+                  value: Articles
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '3'
+        parameters:
+          title:
+            type: text
+            value: Articles
+          paddingTop:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: Medium
+  _dataResources:
+    Articles Contentful:
+      type: contentfulArticles
+      variables:
+        limit: '12'
+        order: ''
+        locale: en-US
+        filters: ''
+        keyword: ''
+        sortOrder: asc
+        sortFieldId: ''
+        contentTypeId: article
+        advancedFilters: '[]'
+    Articles Contentstack:
+      type: contentstackArticles
+      variables:
+        asc: ''
+        desc: ''
+        limit: '5'
+        query: '{ "title": { "$regex": "", "$options": "i" } }'
+        locale: ''
+        keyword: ''
+        sortOrder: asc
+        sortFieldId: ''
+        content_type_uid: article
+  _overrides:
+    4a6029d3-4705-4a42-a8fb-062d26adfda4:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+created: '2023-10-05T09:07:52.455836+00:00'
+modified: '2023-10-19T13:30:28.875733+00:00'
+pattern: false

@@ -1,0 +1,28 @@
+id: callToAction
+name: Call To Action
+created: '2023-10-17T05:54:02.974908+00:00'
+updated: '2023-10-17T05:54:02.974908+00:00'
+slugSettings:
+  required: 'no'
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 5
+  - id: image
+    name: Image
+    type: image
+    helpText: ''
+    typeConfig: null
+entryName: title
+description: ''
+icon: file-document
+type: contentType

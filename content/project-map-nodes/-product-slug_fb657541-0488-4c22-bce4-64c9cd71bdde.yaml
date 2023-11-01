@@ -1,0 +1,9 @@
+id: fb657541-0488-4c22-bce4-64c9cd71bdde
+name: Product Details Page
+type: composition
+data: {}
+order: 500
+path: /products/:product-slug
+compositionId: a255ba08-3ed2-4b91-a3f1-0e84f5872df0
+pathSegment: ':product-slug'
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

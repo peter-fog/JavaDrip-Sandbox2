@@ -1,0 +1,26 @@
+created: '2023-10-17T10:42:34.745628+00:00'
+modified: '2023-10-17T10:42:34.745628+00:00'
+entry:
+  _id: 0269db8f-68ca-4d08-b58f-93e5f3c66098
+  _name: The future of the perfect brew
+  _slug: the-future-of-the-perfect-brew-977b
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693901083/products/Espresso_gpt_hero3_aqzvqj.jpg
+    title:
+      type: text
+      value: The future of the perfect brew
+    description:
+      type: text
+      value: >-
+        When we speak of the 'perfect coffee bean', it's more than just a
+        catchphrase. To us, it embodies a journey of passion, precision, and
+        perseverance.
+
+
+        EspressoGPT is not just a product but a testament to our ethos. It
+        represents our unwavering commitment to delivering our best to a global
+        community of coffee lovers.

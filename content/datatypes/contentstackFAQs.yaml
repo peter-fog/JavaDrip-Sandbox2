@@ -1,0 +1,37 @@
+id: contentstackFAQs
+displayName: FAQs
+ttl: 30
+path: /content_types/${content_type_uid}/entries?${include}
+custom:
+  include: 2
+  searchFieldIds:
+    - title
+  allowContentTypeUid: faq
+  enableFilterByLocale: false
+method: GET
+purgeKey: ff7039c7-46cd-4a6b-bd8a-7ea9a4a4ec30
+archetype: multipleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  content_type_uid:
+    type: text
+    default: faq
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: locale
+    value: ${locale}
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

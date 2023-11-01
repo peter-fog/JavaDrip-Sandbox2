@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:34.584208+00:00'
+modified: '2023-10-17T10:42:34.584208+00:00'
+entry:
+  _id: 8a7e717d-3b57-4fb4-b926-ea086c8e7de7
+  _name: Finally - the perfect barista coffee without leaving home.
+  _slug: finally-the-perfect-barista-coffee-without-leaving-home
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267231/coffee-marketing/hero-4_qh2jg7_fb0orf.webp
+    title:
+      type: text
+      value: Finally - the perfect barista coffee without leaving home.
+    description:
+      type: text
+      value: ''

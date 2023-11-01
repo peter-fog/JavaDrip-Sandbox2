@@ -1,0 +1,488 @@
+created: '2023-10-17T06:38:45.800146+00:00'
+modified: '2023-10-17T08:49:31.843894+00:00'
+entry:
+  _id: ae5e8af8-6a16-46ac-be29-07c52b0defb2
+  _name: Uncomplicating Coffee
+  _slug: uncomplicating-coffee
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Editorial
+    title:
+      type: text
+      value: Uncomplicating Coffee
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Coffee is still simple. Regardless of what it is called on different chalk covered blackboard menus, you will find that the fundamentals are still exactly the same.\_Here are some SUPER SIMPLE ways to communicate with the aproned echelon on the other side of the counter.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A MILK COFFEE
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Can be categorized into several different options, which all revolve around the same principle of ingredients and ratios. Let's\_SIMPLIFY!\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Lattes\_DON’T\_need to be served in a glass, that's\_OLD NEWS! "
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Flat Whites are exactly what they say they are, not as much milk texture on top.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Cappuccinos have chocolate on top, maybe slightly more textured.\_\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "If you are getting overwhelmed with soy milk, almond milk, zymil milk, oat milk, yak milk, pea milk or any of the alternative milks to dairy,\_DON’T WORRY ABOUT THEM. If you can stomach dairy then you don't need to go down that path. All you need to worry about is focusing on ONE order that you like, and stick to it until you feel comfortable enough to change.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "THE ANSWER:\_Stick to your\_FLAT WHITE. It is advertised exactly how it comes, flat and white. Better yet, if you ask a barista for a “WHITE” coffee they will more often than not default to the simple flat white.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A BLACK COFFEE
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The purest form of drinking coffee, and probably the closest you get to the coffee you make at home. Black coffee can be called lots of things across the world like long blacks, short blacks, amercianos, romanos and all sorts of variants under the sun. At the end of the day, they are just espresso and water. Let’s\_SIMPLIFY!\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Long Blacks and Americanos are the same thing, hot water and espresso. I haven't yet had someone explain to me the ACTUAL difference between the two, each time they have tried I have found no fundamental difference.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Short Blacks are\_JUST THE ESPRESSO. Can be called a\_DOPPIO\_or a\_SCHLONG\_or other variations. This is just the espresso shot as it comes.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "You can add bits and bobs to these drinks and get offshoots like romanos with lemon juice. Steer clear, don't worry, if it's not for you don't think about it too much.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The ANSWER:\_Stick to your\_LONG BLACK. Forget George Cooney in the adverts, just remember\_LONG BLACK, if you want a bit of milk, ask for a bit of milk. EVEN SIMPLER just ask for a “BLACK” coffee with any extras you need.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: BUYING BEANS
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "If you are buying coffee beans for home, stick to your HOUSE BLENDS. There are SO MANY countries with amazing tasting beans to taste. However, as you start out, the most consistent coffee beans are BLENDS designed for your favorite flavors.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Like our famous Caramello blend, silky smooth and good\_ANY WAY\_you have it. Can't decide between caramels or chocolates? Try the Duet Pack and you can try both. Blends are your friend.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: MAKING COFFEE AT HOME
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Can be as simple as 3 steps. You DO NOT NEED instant coffee EVER. Forget it, toss it away. You can make fresh coffee just as easy, if not easier, in the comfort of your own home. If you haven't yet, go out and grab a bag of Caramello Blend or our\_Tall, Dark and Handsome Blend\_and try out these recipes for yourself."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: FRENCH PRESS
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "We have an ultimate French Press recipe here if you want to get into things. However the point of this article is to simplify, so\_LET'S SIMPLIFY!\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee In. (ground, buy it pre ground if you do not have a
+                    grinder)
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Hot Water In
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Plunge/Press\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "You now have a delicious carafe of beautiful coffee. Serve with milk, without milk, sweeteners, sugars, over ice,\_ANYWAY\_you want it.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: COLD BREW
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Perfect for those hot days or afternoon sips. Cold brew relies on TIME rather than heat or pressure to extract flavors and is one of my favorite coffee drinks. There are some precise measurements to get the best out of the brew, instead\_LET’S SIMPLIFY!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: ' Coffee in (ground in ANYWAY you have)'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Water in (cold)
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Wait up to 12 hours in the fridge.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "It’s not instant when you make it, but proper prior planning means next time you go for a coffee you have coffee\_ON TAP\_and can last up to 2 weeks in your fridge (not that it is going to last that long anyway).\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee shouldn't be difficult. It is a journey yes, and
+                    everyone is on that journey. However, the entry should never
+                    be overwhelming and protected by bearded barista knights.
+                    Coffee is best drunk however YOU drink it, and I hope this
+                    has helped you to find the ways you can order, buy and make
+                    coffee yourself without getting lost in the jargon.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697532513/coffee-marketing/Uncomplicating_coffee_ddysez.jpg
+    description:
+      type: text
+      value: >-
+        The last two decades has seen a surge in coffee shops, most noticeably
+        across city suburbs.  We have made ordering a cup of coffee as
+        complicated and bespoke as an architecturally designed house. 

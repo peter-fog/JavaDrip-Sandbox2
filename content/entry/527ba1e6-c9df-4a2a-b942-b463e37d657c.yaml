@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.207052+00:00'
+modified: '2023-10-17T10:42:35.207052+00:00'
+entry:
+  _id: 527ba1e6-c9df-4a2a-b942-b463e37d657c
+  _name: Beans for all your brewing needs
+  _slug: beans-for-all-your-brewing-needs
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267285/coffee-marketing/hero-beans_q7qtiv_h4dvc5.webp
+    title:
+      type: text
+      value: Beans for all your brewing needs
+    description:
+      type: text
+      value: ''

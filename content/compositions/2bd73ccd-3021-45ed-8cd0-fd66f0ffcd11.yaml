@@ -1,0 +1,105 @@
+composition:
+  _name: Product Gallery (alg)
+  _id: 2bd73ccd-3021-45ed-8cd0-fd66f0ffcd11
+  type: productGallery
+  variant: fluidContent
+  parameters:
+    title:
+      type: text
+      value: Product Gallery
+    duration:
+      type: select
+      value: slow
+    maxItems:
+      type: number
+      value: '5'
+    paddingTop:
+      type: select
+      value: Small
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h4
+    animationType:
+      type: select
+      value: flyIn
+    paddingBottom:
+      type: select
+      value: Small
+    backgroundType:
+      type: tp-background-type-parameter
+      value: Dark
+    animationOrder:
+      type: select
+      value: oneByOne
+  slots:
+    images:
+      - _id: 3be96c47-ca67-4311-b605-9c7f2ab010c2
+        type: $loop
+        slots:
+          body:
+            - _id: a80d826d-1e71-4790-822c-193fa6be0efa
+              type: image
+              parameters:
+                alt:
+                  type: text
+                  value: Product image ${#jptr:/Product Content images Loop Item/id}
+                src:
+                  type: image
+                  value: ${#jptr:/Product Content images Loop Item/url}
+                width:
+                  type: number
+                  value: '10000'
+                height:
+                  type: number
+                  value: '10000'
+              _overridability:
+                parameters:
+                  alt: 'yes'
+                  src: 'yes'
+                  fill: 'yes'
+                  width: 'yes'
+                  height: 'yes'
+                  quality: 'yes'
+                  priority: 'yes'
+                  objectFit: 'yes'
+                  borderColor: 'yes'
+                  borderWidth: 'yes'
+                  borderRadius: 'yes'
+                  overlayColor: 'yes'
+                  overlayOpacity: 'yes'
+        _dataResources:
+          Product Content images Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /Product Content/results/0/images
+  _dataResources:
+    Product Content:
+      type: algoliaProduct
+      variables:
+        body: >-
+          {"requests":[{"indexName":"products-ngm","objectID":"espresso-gpt-145"}]}
+        entryIds: espresso-gpt-145
+        facetValue: ''
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      delay: 'yes'
+      title: 'yes'
+      duration: 'yes'
+      maxItems: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      marginBottom: 'yes'
+      animationType: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+      animationOrder: 'yes'
+      animationPreview: 'yes'
+created: '2023-09-07T07:56:43.867511+00:00'
+modified: '2023-09-28T06:49:59.479943+00:00'
+pattern: true
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5

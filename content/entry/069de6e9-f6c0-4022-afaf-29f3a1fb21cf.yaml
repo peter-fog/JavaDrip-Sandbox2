@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.021162+00:00'
+modified: '2023-10-17T10:42:35.021162+00:00'
+entry:
+  _id: 069de6e9-f6c0-4022-afaf-29f3a1fb21cf
+  _name: Buy Coffee Machine
+  _slug: buy-coffee-machine
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692271238/coffee-marketing/hero_alt4_iuvgjz_sld3xs_keidl5.webp
+    title:
+      type: text
+      value: Buy Coffee Machine
+    description:
+      type: text
+      value: ''

@@ -1,0 +1,28 @@
+created: '2023-10-17T10:42:32.220076+00:00'
+modified: '2023-10-17T10:42:32.220076+00:00'
+entry:
+  _id: d7a14748-4970-47f1-80a9-344d3bffae08
+  _name: Introducing the Espresso GPT, a groundbreaking new Coffee Maker
+  _slug: introducing-the-espresso-gpt-a-groundbreaking-new-coffee-maker-0bd6
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693386789/products/EspressoGPT_image.png
+    title:
+      type: text
+      value: Introducing the Espresso GPT, a groundbreaking new Coffee Maker
+    description:
+      type: text
+      value: >-
+        What sets Espresso GPT apart is its ability to learn and adapt to
+        individual taste preferences. Through a user-friendly interface, coffee
+        lovers can fine-tune their espresso experience, from bean selection to
+        grind size and brewing temperature. Espresso GPT analyzes your choices
+        and refines the brewing process, ensuring each shot is perfectly
+        tailored to your palate. With this machine, every morning is a coffee
+        masterpiece, bringing the finest cafe-quality espresso to your home.
+        Welcome to the future of coffee brewing with Espresso GPT, where
+        technology and coffee expertise unite to redefine how we savor the best
+        espresso.

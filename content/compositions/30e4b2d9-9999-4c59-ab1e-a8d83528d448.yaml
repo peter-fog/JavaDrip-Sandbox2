@@ -1,0 +1,85 @@
+composition:
+  _name: Form - with CTA
+  _id: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+  type: emailSignupForm
+  parameters:
+    image:
+      type: cloudinary-image
+      value:
+        - alt: ''
+          url: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692282831/coffee-marketing/Rectangle_7_rskl2m_pmepat.png
+          uuid: 358b77c4-4b67-461e-b00d-8b4016e4869c
+          width: '1600'
+          format: png
+          height: '689'
+          caption: ''
+          version: 1692282831
+          publicId: coffee-marketing/Rectangle_7_rskl2m_pmepat
+          createdAt: '2023-08-17T14:33:51Z'
+          previewUrl: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/q_auto,f_auto/coffee-marketing/Rectangle_7_rskl2m_pmepat.png
+          resourceType: image
+          transformation: ''
+    title:
+      type: text
+      value: ${#jptr:/Call To Action Content/entry/_name}
+    marginTop:
+      type: select
+      value: None
+    objectFit:
+      type: select
+      value: fill
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    description:
+      type: text
+      value: ${#jptr:/Call To Action Content/entry/fields/description/value}
+    marginBottom:
+      type: select
+      value: None
+    overlayColor:
+      type: tp-color-style-parameter
+      value: base-300
+    paddingBottom:
+      type: select
+      value: None
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 50%
+    containerVariant:
+      type: select
+      value: fluidContent
+  _dataResources:
+    Call To Action Content:
+      type: callToAction
+      variables:
+        entryId: a4186dbf-a5c6-4f5c-8efe-ddd287457182
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      image: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+      overlayOpacity: 'yes'
+      containerVariant: 'yes'
+      buttonAnimationType: 'yes'
+created: '2023-10-25T09:28:29.601812+00:00'
+modified: '2023-10-25T09:36:37.84911+00:00'
+pattern: true

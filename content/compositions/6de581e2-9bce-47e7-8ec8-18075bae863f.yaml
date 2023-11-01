@@ -1,0 +1,94 @@
+composition:
+  _name: Product Feature Cards (cf)
+  _id: 6de581e2-9bce-47e7-8ec8-18075bae863f
+  type: grid
+  parameters:
+    gapX:
+      type: tp-slider-parameter
+      value: medium
+    gapY:
+      type: tp-slider-parameter
+      value: none
+    title:
+      type: text
+      value: Features
+    columnsCount:
+      type: tp-slider-parameter
+      value: '4'
+  slots:
+    grid-inner:
+      - _id: 0897e47b-024f-470c-b959-39da4dd7e2b3
+        type: $loop
+        slots:
+          body:
+            - _id: 8b05735f-2206-4fdb-8836-73a6a560a01c
+              type: card
+              variant: ''
+              parameters:
+                image:
+                  type: image
+                  value: ${#jptr:/Features Content items Loop Item/fields/image}
+                title:
+                  type: text
+                  value: ${#jptr:/Features Content items Loop Item/fields/title}
+                objectFit:
+                  type: select
+                  value: contain
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Features Content items Loop
+                    Item/fields/description}
+                textColorVariant:
+                  type: select
+                  value: Light
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: '6'
+              _overridability:
+                variants: true
+                parameters:
+                  badge: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  duration: 'yes'
+                  badgeSize: 'yes'
+                  objectFit: 'yes'
+                  badgeStyle: 'yes'
+                  buttonCopy: 'yes'
+                  buttonLink: 'yes'
+                  buttonStyle: 'yes'
+                  description: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  overlayOpacity: 'yes'
+                  animationPreview: 'yes'
+                  textColorVariant: 'yes'
+                  buttonAnimationType: 'yes'
+                  lineCountRestriction: 'yes'
+        _dataResources:
+          Features Content items Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /Features Content/items
+  _dataResources:
+    Features Content:
+      type: contentfulFeatures
+      variables:
+        locale: ''
+        entryIds: >-
+          CGRhkvMr5xEmvx6pKPh0Y,18dOBcbDTMsYquEZWfQqRJ,73xRkM4Gfmj97bxmqa9l5y,11aoHsuYeY9nuPv4ED9J51
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      gapX: 'yes'
+      gapY: 'yes'
+      title: 'yes'
+      columnsCount: 'yes'
+created: '2023-10-18T11:48:25.497279+00:00'
+modified: '2023-10-19T10:29:51.22266+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Card_block_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

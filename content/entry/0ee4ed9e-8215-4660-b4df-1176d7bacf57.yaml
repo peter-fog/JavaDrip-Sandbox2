@@ -1,0 +1,21 @@
+created: '2023-10-17T10:42:35.155658+00:00'
+modified: '2023-10-17T10:42:35.155658+00:00'
+entry:
+  _id: 0ee4ed9e-8215-4660-b4df-1176d7bacf57
+  _name: The drip on display
+  _slug: the-drip-on-display-4d75
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693900983/products/Espresso_gpt_hero2_hpzd3p.jpg
+    title:
+      type: text
+      value: The drip on display
+    description:
+      type: text
+      value: >-
+        Crystal-clear clarity, ensuring users can easily select their desired
+        settings and monitor the brewing process in real-time. Its intuitive
+        interface and vibrant visuals elevate the user experience.

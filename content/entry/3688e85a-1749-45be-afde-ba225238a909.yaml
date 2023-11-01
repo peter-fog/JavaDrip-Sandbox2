@@ -1,0 +1,20 @@
+created: '2023-10-17T10:42:34.8429+00:00'
+modified: '2023-10-17T10:42:34.8429+00:00'
+entry:
+  _id: 3688e85a-1749-45be-afde-ba225238a909
+  _name: Perfect specs
+  _slug: perfect-specs-52bb
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693900983/products/Espresso_gpt_hero1_jxfwrg.png
+    title:
+      type: text
+      value: Perfect specs
+    description:
+      type: text
+      value: >-
+        Modern design seamlessly blends minimalistic elegance with cutting-edge
+        functionality, making it a statement piece in any contemporary kitchen. 

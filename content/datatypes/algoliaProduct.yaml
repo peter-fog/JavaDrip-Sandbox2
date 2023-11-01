@@ -1,0 +1,24 @@
+id: algoliaProduct
+displayName: Product
+ttl: 30
+body: ${body}
+path: ${path}
+custom:
+  facetName: ''
+  imagePath: thumbnailImage
+  indexName: products-ngm
+  displayField: name
+method: POST
+purgeKey: 819dd906-d04d-436a-a053-04e05882c460
+archetype: singleEntry
+variables:
+  body:
+    type: text
+    default: '{}'
+    displayName: Body
+  path:
+    type: text
+    default: /*/objects
+    displayName: Path
+dataSourceId: algoliaDataSource
+allowedOnComponents: []

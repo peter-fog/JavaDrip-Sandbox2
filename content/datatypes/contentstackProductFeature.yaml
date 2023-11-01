@@ -1,0 +1,43 @@
+id: contentstackProductFeature
+displayName: Product Feature
+ttl: 30
+path: /content_types/${content_type_uid}/entries/${entry_uid}?${include}
+custom:
+  include: 2
+  imagePath: image
+  searchFieldIds:
+    - product_id
+  allowContentTypeUids:
+    - product_feature
+  enableFilterByLocale: false
+method: GET
+purgeKey: 44f7efcf-0af2-4cbd-8e10-7b8462ee43d8
+archetype: singleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  entry_uid:
+    type: text
+    default: ''
+    displayName: Entry Uid
+  content_type_uid:
+    type: text
+    default: product_feature
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: locale
+    value: ${locale}
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

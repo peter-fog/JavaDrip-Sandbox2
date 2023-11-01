@@ -1,0 +1,24 @@
+created: '2023-10-17T07:36:12.036242+00:00'
+modified: '2023-10-17T07:36:12.036242+00:00'
+entry:
+  _id: 6a4c4919-9785-4415-9e8d-efb796517b86
+  _name: Carbon-neutral energy source
+  _slug: carbon-neutral-energy-source
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693307120/coffee-icons/icon__flower__k4kjf6.svg
+    title:
+      type: text
+      value: Carbon-neutral energy source
+    productId:
+      type: text
+      value: espresso-gpt-145
+    description:
+      type: text
+      value: >-
+        We care for the planet as much as you do. Our espresso machine is
+        powered by a sustainable and recyclable energy cell that has zero carbon
+        footprint.

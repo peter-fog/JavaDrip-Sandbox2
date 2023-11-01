@@ -1,0 +1,95 @@
+composition:
+  _name: Testimonial Hero (Contentful & Algolia)
+  _id: 69407966-e92d-481e-9935-c24de0e6e9c4
+  type: hero
+  variant: imageLeft
+  parameters:
+    image:
+      type: image
+      value: ${#jptr:/Product Content/results/0/images/0/url}
+    title:
+      type: text
+      value: ${#jptr:/Testimonial Content/items/0/fields/title}
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      value: ${#jptr:/Testimonial Content/items/0/fields/experience}
+    eyebrowText:
+      type: text
+      value: ''
+    primaryButtonCopy:
+      type: text
+      value: Learn more
+    primaryButtonLink:
+      type: link
+      value:
+        path: /products/${#jptr:/Product Content/results/0/slug}
+        type: projectMapNode
+        nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+        projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        dynamicInputValues:
+          product-slug: ${#jptr:/Product Content/results/0/slug}
+  _dataResources:
+    Product Content:
+      type: algoliaProduct
+      variables:
+        body: >-
+          {"requests":[{"indexName":"products-ngm","objectID":"royale-iq-espresso-machine-117"}]}
+        entryIds: royale-iq-espresso-machine-117
+        facetValue: ''
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    Testimonial Content:
+      type: contentfulTestimonial
+      variables:
+        limit: '1'
+        order: ''
+        locale: ''
+        filters: ''
+        keyword: ''
+        sortOrder: asc
+        sortFieldId: ''
+        contentTypeId: testimonial
+        advancedFilters: '[]'
+        contentTypeQuery: content_type=testimonial
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    variants: true
+    parameters:
+      delay: 'yes'
+      image: 'yes'
+      title: 'yes'
+      video: 'yes'
+      duration: 'yes'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      textColorVariant: 'yes'
+      fullHeight: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      animationType: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+      overlayOpacity: 'yes'
+      containerVariant: 'yes'
+      animationOrder: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      animationPreview: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+created: '2023-09-28T09:23:30.672555+00:00'
+modified: '2023-09-28T12:09:22.040311+00:00'
+pattern: true
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

@@ -1,0 +1,257 @@
+created: '2023-10-17T06:38:46.335332+00:00'
+modified: '2023-10-17T08:18:33.991388+00:00'
+entry:
+  _id: b55e9eb9-1c5a-49b0-a33b-39e9fee4d2a1
+  _name: 5 Things You Can Do With Your Used Coffee Grinds
+  _slug: 5-things-you-can-do-with-your-used-coffee-grinds
+  type: article
+  fields:
+    tag:
+      type: select
+      value: CoffeeMakers
+    title:
+      type: text
+      value: 5 Things You Can Do With Your Used Coffee Grinds
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Here are 5 things you can do to reduce your coffee waste,
+                    using ONLY your coffee at home!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "\_PEST REPELLENT\_ "
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Caffeine is great. We love caffeine as a species because it perks us up and gives us a much needed boost! Bugs HATE caffeine! Which is actually the coffee tree’s reason for producing it. The more caffeine a tree has the less chance of bugs eating the seeds and the leaves, and once roasted and ground the aromas and the small fumes coming off the coffee grinds are the perfect natural pest repellent!\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Just leaving the grounds out in the open will ward away flies as well as wasps! Sprinkle some around high traffic ant areas and the ants won't ever go near it. Better yet, you can actually light the grinds on fire, and have them smoulder like incense. This will keep away mozzies, midges and all other annoying critters. Sadly the incense burning works better on unused grinds (so best burn the old grinds that you won't be using anymore) however a bit of lighter fluid will help the spent grinds along easier.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Sprinkle some used grinds over your veggies, or passionfruit and critters like possums, cats and other midnight bandits will stay away from your hard grown crops.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "COMPOST INVIGORATOR\_ "
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Flies, mozzies and wasps might hate the thought of coffee, but worms LOVE coffee just as much as we do. The microorganisms that break down your compost will pick up traces of leftover caffeine out of your spent coffee and SUPER CHARGE themselves to decompose everything twice as fast!\_Now you do have to be careful about the amount of coffee going in, balance it with plenty of other organic matter so you aren't adding TOO MUCH nitrogen and other harmful chemicals into the mix. A balance is what we are always looking for.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "HAIR EXFOLIANT\_ "
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Like a good body scrub, coffee can be used as a great exfoliant for your hair. This is done before you add in any shampoo, and what it does is catch and remove any oils and grit in your hair and prepare it for the shampoo. The beauty of using spent grinds is that the oils from the coffee are all gone, so it will actually soak up any oils from your hair and scrub it ready for cleaning.\_Blondes do have to be careful, as the coffee will naturally darken lighter hair, adding a coffee colored sheen to your head of hair.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'FURNITURE STAIN '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Speaking of staining, you can actually stain your furniture with your leftover coffee! You wouldn't do your entire dining table with it however. Coffee grinds is great at touching up any scratches or chips in wooden furniture. All you have to do is scrub a bit if wet used grinds on the spot and it will color that mark and make it disappear.\_Making sure to get the right amount and semi color matching is important to think about, before you go staining your white birch wood chairs. However as a general, natural answer to a quick and easy fix, coffee grinds are a “go to” blemish remover for your wooden furniture.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: DRY MEAT RUB
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: " Coffee goes GREAT with meat. Weirdly enough they are a match made in heaven, just not for the flavors but for what the coffee does molecularly. The acidity of the coffee itself will actually tenderize the meat as you rub it in, creating a beautifully soft and tender texture whether you are pan searing, BBQ grilling or popping it in the smoker for a few hours.\_The coffee won’t pass any flavor to the meat itself, as it will mostly burn off to create a beautiful crust on the outside.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: BONUS ROUND
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: " That’s 5 things you can do yourself, at home, with your coffee grinds! What if we as a society could do more, or even better what could our government do to help get through the 6 Million tons of coffee waste each year?\_A company in London, England is doing just that. BIO BEAN is converting used coffee grinds, extracting the remaining oils out of the grinds and mixing them with diesel creating a biofuel strong enough to power their BUSSESWe did a little research and experimented with how much our cafe in Arana Hills could contribute to Bio Beans fight against coffee waste.\_ Roughly, we go through 180 kg of coffee waste each fortnight. Luckily we give most of our spent coffee back into the community via local farms and hobby gardeners. If we were to donate those 180 kg of coffee to BIO BEAN, using their processes we could power one london bus for an ENTIRE DAY That’s just using waste from one small local cafe in Brisbane over a two week period.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "By using the same data used for our cafe, you could power every bus currently registered in Australia (80 000 Buses) for an entire YEAR! Purely running off a biofuel, using up the waste produced and making a cleaner future for all of us. This concept might seem far fetched. It might seem impossible to achieve, however by getting a little bit political and using your votes wisely it could very much be a future we all live in.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "We love a good excuse to drink more coffee, and by using the waste properly you can be doing so much more with your brew after you drink it! So if you don’t mind me, I'm going to go make myself another coffee so I can try out some of these fun tricks to help reduce the amount of coffee waste going back out into the world.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697530594/coffee-marketing/5_things_for_used_grinds_odiueo.jpg
+    description:
+      type: text
+      value: >-
+        We love a good excuse to drink more coffee, and by using the waste
+        properly you can be doing so much more with your brew after you drink
+        it!

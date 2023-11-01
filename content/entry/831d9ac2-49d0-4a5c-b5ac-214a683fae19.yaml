@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.170816+00:00'
+modified: '2023-10-17T10:42:35.170816+00:00'
+entry:
+  _id: 831d9ac2-49d0-4a5c-b5ac-214a683fae19
+  _name: It's cold and snowing
+  _slug: its-cold-and-snowing-6baa
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692268936/coffee-marketing/photo-1521752191297-b38bf3be4901_xqtuxn.png
+    title:
+      type: text
+      value: It's cold and snowing
+    description:
+      type: text
+      value: Break out the percolator!

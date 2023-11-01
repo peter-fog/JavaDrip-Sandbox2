@@ -1,0 +1,18 @@
+created: '2023-10-17T05:54:43.772697+00:00'
+modified: '2023-10-17T05:54:43.772697+00:00'
+entry:
+  _id: 4a5c9f7d-07fc-4b5a-93be-f301acf50afd
+  _name: Try our International Beans
+  _slug: try-our-international-beans
+  type: callToAction
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269211/promotion/25_off_fsfpi4_uqznqb.svg
+    title:
+      type: text
+      value: Try our International Beans
+    description:
+      type: text
+      value: Sign up and get 25% off taster bundle

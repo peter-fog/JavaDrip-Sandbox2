@@ -1,0 +1,366 @@
+created: '2023-10-17T06:38:46.413778+00:00'
+modified: '2023-10-17T08:12:44.960419+00:00'
+entry:
+  _id: 34adddeb-5c20-414d-8838-0d9f39c25259
+  _name: What is Acidity in Coffee? And is it good?
+  _slug: what-is-acidity-in-coffee
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Editorial
+    title:
+      type: text
+      value: What is Acidity in Coffee? And is it good?
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Acidity in coffee
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Acidity is a central component of how coffee tastes. When
+                    coffee professionals discuss “acidity,” they are referring
+                    to the existence of certain acids that affect the taste of
+                    coffee. Acidity does not refer to the actual acid content;
+                    rather, it refers to a flavor note.Coffee with a high
+                    acidity level is commonly referred to as “bright.” But
+                    overall, the word “acid” can be a little perplexing, but
+                    when it comes to food, acidic isn’t really a bad thing.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Acids found in coffee
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee contains a wide range of acids. We will focus on the
+                    acids that survive the roasting process in this review
+                    because these are the acids that affect the final flavor of
+                    a coffee. The first ones on the list have a positive impact
+                    on coffee, while those further down the list can have both
+                    positive and negative effects.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Citric Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Citric acid is found in arabica beans grown at higher
+                    elevations. This acid, commonly found in citrus fruits, is
+                    associated with lemon, lime, and grapefruit notes when mixed
+                    with phosphoric acid.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Phosphoric Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    Phosphoric acid tastes sweeter than most acids. It has the
+                    ability to turn a sour citrus taste into a sweeter
+                    grapefruit or mango flavor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Malic Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Although it is more common to taste apple or pear in a malic
+                    acid-containing coffee, it is often associated with hints of
+                    stone fruit, such as peaches or plums.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Chlorogenic Acids
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Chlorogenic acids (CGAs) are the primary cause of coffee’s
+                    perceived acidity. When compared to other acids, they
+                    disappear quickly during roasting and break down into Quinic
+                    and other acids. In a medium roast coffee, 50% of the CGAs
+                    have been destroyed which is why light roasts are often
+                    defined as “bright” and “acidic” rather than dark roasts.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Acetic Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Acetic acid, the same acid contained in vinegar, can provide
+                    a pleasant sharpness at lower concentrations. Higher acetic
+                    acid concentrations, on the other hand, are nasty. A coffee
+                    with a high acetic acid content was most likely improperly
+                    processed.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tartaric Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Tartaric acid, like acetic acid, has a bitter taste in high
+                    concentrations. It can, however, provide grape-like or
+                    wine-like notes at low concentrations, which is not
+                    surprising considering that it is found in grapes.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Quinic Acid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Quinic acid is formed as a byproduct of the breakdown of
+                    other acids. It is abundant in darkly roasted coffee, stale
+                    coffee, and coffee that was brewed several hours ago but
+                    kept warm on a hot plate. Although it gives coffee a clean
+                    finish, quinic acid is the main acid that causes the sour
+                    feeling on your stomach.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The Roasting Process and its Effects on Coffee Acids
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The concentrations of specific acids change as green beans
+                    undergo chemical reactions during the roasting process. Most
+                    acids decay at higher temperatures, but some actually
+                    increase in temperature. In general, the roasting method
+                    attempts to bring out the best combination of naturally
+                    occurring acids present in a particular coffee, since these
+                    are the compounds that give the coffee its distinct
+                    characteristics.Simply put, coffee, in its purest form,
+                    contains a wide range of acids, both good and bad. Some
+                    disappear during the roasting process, while others remain,
+                    so roasting is all about finding the right combination of
+                    acidity, aroma, and body.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Finding a coffee with the right acidity
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Now you are aware that all of the flavors in a coffee can be specifically related to the acids found within it. If you can recognize the acids you want, you can look for coffees that have been grown or roasted in a way that produces certain acids and determine the best coffee for you.We’ve included fun facts on the individual product pages so you can easily find the right coffee with the right acidity that you will enjoy. You might also want to check out our\_decaf coffee beans\_if you prefer a coffee with light acidity but tastes just like regular coffee."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697530260/coffee-marketing/acidity_ptwrjf.jpg
+    description:
+      type: text
+      value: >-
+        Coffee is marketed as an acidic beverage, but it actually has a pH of
+        about five, making it less acidic than beer, orange juice, and even
+        soda. When we talk about acid and coffee, we aren’t really referring to
+        the pH level of the beverage. 

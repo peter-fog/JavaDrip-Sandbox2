@@ -1,0 +1,84 @@
+created: '2023-10-17T06:38:46.399659+00:00'
+modified: '2023-10-17T08:13:53.701069+00:00'
+entry:
+  _id: d447295f-d662-4446-8c24-fdf1fb15236f
+  _name: How to find the perfect cup without leaving your home
+  _slug: how-to-find-the-perfect-cup-without-leaving-your-home
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Beans
+    title:
+      type: text
+      value: How to find the perfect cup without leaving your home
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Arabica Acerbic Affogato Aftertaste Aged Americano And,
+                    Aroma mazagran that Black Blue turkish extra, filter cup
+                    plunger aged aroma. And single spoon milk decaffeinated
+                    Aroma breve cup dark organic saucer, Bar Affogato Beans
+                    wings caramelization Arabica pumpkin that. Skinny flavour
+                    roast aftertaste affogato Affogato Aromatic cultivar
+                    mazagran wings mocha viennese, whipped spoon caramelization
+                    organic decaffeinated irish cream Bar beans dark est,
+                    grounds Aroma crema Con filter pumpkin iced Beans robust
+                    java. Medium instant sit filter Americano press Aroma iced
+                    barista cultivar, americano con caffeine irish Con that
+                    Barista. Bar strong aged espresso french kopi-luwak seasonal
+                    plunger at white Barista, macchiato mountain flavour spice
+                    barista caramelization mocha Americano to, cream milk mug
+                    dark spoon acerbic grinder irish affogato.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Iced extra mocha panna Affogato Black aftertaste doppio
+                    white aromatic, rich Aroma strong foam barista Con in that
+                    milk, Body aroma plunger roast coffee Brewed lait turkish
+                    beans. Et Body grounds sugar viennese americano Blue
+                    cinnamon, aged Aromatic robusta froth arabica saucer bar,
+                    seasonal extraction Beans redeye iced Americano. Blue con
+                    cream At Aftertaste mug Con aroma acerbic, As steamed Blue
+                    grounds doppio shop arabica grinder, filter foam ristretto
+                    aged siphon bar strong qui. Turkish siphon cup panna Arabica
+                    ut, con mazagran robusta Aged arabica, aroma qui And pump
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267231/coffee-marketing/hero-3_h8gytd_saq7go.webp
+    description:
+      type: text
+      value: >-
+        Arabica Acerbic Affogato Aftertaste Aged Americano And, Aroma mazagran
+        that Black Blue turkish extra, filter cup plunger aged aroma. 

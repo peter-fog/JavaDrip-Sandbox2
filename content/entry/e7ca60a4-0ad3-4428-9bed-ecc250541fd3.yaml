@@ -1,0 +1,419 @@
+created: '2023-10-17T06:38:46.565264+00:00'
+modified: '2023-10-17T06:56:27.15169+00:00'
+entry:
+  _id: e7ca60a4-0ad3-4428-9bed-ecc250541fd3
+  _name: How to get the perfect grind for your beans at home
+  _slug: how-to-get-the-perfect-grind-for-your-beans
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Beans
+    title:
+      type: text
+      value: How to get the perfect grind for your beans at home
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Without even knowing it, you've probably grown up with the sound of coffee grinding. Think about the coffee aisle in the supermarket, where large industrial grinders take whole beans and divvy them into small pieces. The practice of coffee grinding is so ubiquitous that it's even a bonus task on the television show\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: "Supermarket Sweep\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "— both the original show and the newly rebooted version. Contestants can patiently grind a bag of coffee for extra cash.\_Grinding coffee is an essential step in the brewing process, and with so many affordable options, it's a step you should consider taking out of the supermarket and into your home. Like many things at the supermarket, coffee is a food item that begins to get stale sooner if you grind it ahead of time. Grinding at home will allow you to enjoy the freshest, tastiest version of your favorite brew. Here's everything you need to know about how to grind for any situation."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why the Grind Matters
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Grinding makes coffee particles small enough so that when you pour water, it can extract flavor. If you simply throw whole beans into your coffee brewer, you'll end up with slightly coffee-flavored water, because the water can't penetrate the beans and find all the good-tasting stuff we're looking for. Grind size \"ultimately impacts how water flows through the coffee bed, the corresponding extraction rate, and thus the final taste of the coffee you've brewed,\" says Sierra Yeo, the 2022 UK Brewers Cup Champion. Simply put, grinding coffee changes the available surface area for water to interact with coffee. The more surface area, the more water can mingle with, and pull flavor from, beans.\_One way to think about grind size is to visualize how water would flow through a bunch of rocks versus sand. Sand particles are much smaller and have more surface area, so water would move through much more slowly than through rocks. Ground coffee is the same: The finer the grind, the more slowly water will move, and vice-versa. You might think then that you should grind your coffee as fine as possible, but, like Goldilocks, there's a sweet spot where you want to extract enough — but not too much — from your coffee.\_Grinding isn't just about the size of your coffee particles but their shape and consistency. \"The geometry of your coffee grounds, the average size of your ground particles, even the composition of differently-sized-and-shaped particles can affect the final flavor,\" says Yeo. Water will move through your coffee at different rates if you have particles in your brew that are all different shapes. Very finely ground particles might get too much of their flavor pulled out (this is where you'll get more bitter notes, what we call \"over-extraction\"), while coarser ground particles won't get enough of their flavor pulled out (\"under extraction\"). If you have both going on in your brew, it won't just even out — the coffee will taste both bitter and sour simultaneously."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Types of Grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "There are hundreds of grinders on the market, but most fall within two main categories:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Blade grinders:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_Blade grinders have a propellor-like blade, usually powered by a motor, that chops coffee into smaller pieces. However, blade grinders are notorious for chopping coffee unevenly, creating particles of all sizes. If you grind coffee with a blade grinder, you sort of never know what you're going to get: you might have particles that are dust-like in size, and others that look like giant boulders (sometimes a bean or two might even escape the blade, and not be chopped at all).\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Burr grinders:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "Burrs are usually a set of plates that allow coffee beans to pass through, ensuring that they don't get \"chopped\" up again and making the resulting ground coffee much more even in size. Burrs can be made from stainless steel or porcelain, and you control the grind size by moving the burrs closer to, or further from, one another. Burr grinders can be automatic (you press a button, and it grinds) or manual (usually involving a crank one must turn).\_publishedGrinding Thumbnail"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: How to Grind Coffee Beans With a Grinder
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Before you begin, you should decide what brewer you will use and decide on a grind setting for that machine. You might have read somewhere that for a French press, for example, you're supposed to grind coarsely, and while that might work for you, it's important to know that there's no one right way to grind. \"There can be recommendations from manufacturers or experts in the field, but ultimately you can experiment to find out what flavor profile you prefer from your coffees and adjust your grind size to achieve that,\" says Yeo.\_The longer a coffee spends in contact with water, the coarser you'll grind. That's why you'll see coarser grind recommendations for French presses, which brew by being in direct contact with water for around four minutes, but for espresso, you might read that you have to grind very finely. But really, it's all about what works for you. \"Most brewers are versatile enough to accommodate a few grind size settings, recipe allowing,\" says Yeo. \"It's incredibly subjective.\"\_If you're not sure, use this as a general guide:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Very coarse:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    Cold brew, since it steeps in water for anywhere between 12
+                    and 24 hours
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Coarse:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "French press, but feel free to experiment! More and more, coffee folks are challenging the way traditional brew methods are often thought about, including experimenting with French press recipes.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Medium:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 3
+                  version: 1
+                - mode: normal
+                  text: Most automatic coffee brewers
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Medium-fine:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: Pour over methods like a V60 or Kalita Wave
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Fine:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: Espresso, Turkish coffee, Aeropress
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Measure out your beans:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "It's helpful to have a scale for this step, so you'll know exactly how much coffee you're using. Many coffee brewing recipes recommend a 1:16 ratio of coffee to water. For a 12-ounce cup, that's about 25 grams of coffee.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Pour beans into the hopper:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "The hopper is the chamber on top of your grinder. You might be tempted to fill the hopper with coffee, but it's better to store your coffee in the bag it came in, and then measure each dose per brew.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Choose your grind setting:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "On many models, like the Encore, you switch the grind setting by moving the collar on the hopper. A smaller number corresponds with a finer grind, and a larger number coarser. This will look a little different, depending on the model.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Press the button:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "Many grinders will have a manual button you need to press as you grind. (If you take your hand off the button, the grinder will stop.) Some grinders have timers you can set, so they grind with one tap. (The grinder in the photos below, a slightly more expensive model from Baratza called the Virtuoso, has this function.)\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "Brew and taste:\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "It's hard to know by sight whether your grind setting is correct, so try brewing, and see what you taste. If you notice that your brew is going quickly, and the coffee tastes sour, you might need to grind more finely. If your brew clogs your machine, or the coffee tastes bitter, you might need to go coarser.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697525775/coffee-marketing/grinding_article_thumb_yfg1rs.jpg
+    description:
+      type: text
+      value: >-
+        Cappuccino as Bar decaffeinated Beans carajillo aged extra, redeye ut
+        Black aroma Aromatic As Aftertaste, single au barista Arabica bar
+        aftertaste.

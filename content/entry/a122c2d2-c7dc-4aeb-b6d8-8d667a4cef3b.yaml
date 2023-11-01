@@ -1,0 +1,25 @@
+created: '2023-10-17T07:36:11.52522+00:00'
+modified: '2023-10-17T07:36:11.52522+00:00'
+entry:
+  _id: a122c2d2-c7dc-4aeb-b6d8-8d667a4cef3b
+  _name: Holographic interface
+  _slug: holographic-interface
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693307035/coffee-icons/Diamond_sratyz.svg
+    title:
+      type: text
+      value: Holographic interface
+    productId:
+      type: text
+      value: espresso-gpt-145
+    description:
+      type: text
+      value: >
+        Touchscreens are a thing of the past. EspressoGPT 's floating
+        holographic interface offers an intuitive user experience. Adjust
+        settings, browse recipes, or get a virtual barista tutorial with a
+        simple hand gesture.

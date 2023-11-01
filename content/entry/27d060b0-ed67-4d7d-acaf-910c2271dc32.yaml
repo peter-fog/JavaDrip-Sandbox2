@@ -1,0 +1,32 @@
+created: '2023-10-17T07:52:39.168003+00:00'
+modified: '2023-10-17T07:54:08.154313+00:00'
+entry:
+  _id: 27d060b0-ed67-4d7d-acaf-910c2271dc32
+  _name: Test
+  _slug: new-entry-testimonial
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: testimonial
+    stars:
+      type: text
+      value: testimonial
+    title:
+      type: text
+      value: Test
+    lastName:
+      type: text
+      value: testimonial
+    location:
+      type: text
+      value: testimonial
+    firstName:
+      type: text
+      value: testimonial
+    productId:
+      type: text
+      value: testimonial
+    experience:
+      type: text
+      value: testimonial

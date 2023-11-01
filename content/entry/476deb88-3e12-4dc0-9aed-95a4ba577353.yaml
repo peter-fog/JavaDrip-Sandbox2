@@ -1,0 +1,36 @@
+created: '2023-10-17T07:57:45.822868+00:00'
+modified: '2023-10-17T07:57:45.822868+00:00'
+entry:
+  _id: 476deb88-3e12-4dc0-9aed-95a4ba577353
+  _name: Excellent Coffee maker
+  _slug: excellent-coffee-maker
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: ''
+    stars:
+      type: text
+      value: '4'
+    title:
+      type: text
+      value: Excellent Coffee maker
+    picture:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692279704/csk-marketing/photo-1502685104226-ee32379fefbe_pjadfb_xsnohl.avif
+    lastName:
+      type: text
+      value: Selman
+    location:
+      type: text
+      value: ''
+    firstName:
+      type: text
+      value: Emily
+    productId:
+      type: text
+      value: javadrip-specialty-coffee-maker
+    experience:
+      type: text
+      value: brews delicious coffee and easy to use

@@ -1,0 +1,57 @@
+composition:
+  _name: Accordion (cf)
+  _id: 1c7dcf4b-414b-4b96-8b47-0c60d66af892
+  type: accordion
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/FAQ Header Content/items/0/fields/title}
+  slots:
+    items:
+      - _id: 444d78df-69e5-4747-95dc-56d59555e66d
+        type: $loop
+        slots:
+          body:
+            - _id: 0c0744e4-1779-42d7-bfc8-83c9fba50db3
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: ${#jptr:/FAQ Content items Loop Item/fields/title}
+                description:
+                  type: text
+                  value: ${#jptr:/FAQ Content items Loop Item/fields/description}
+              _overridability:
+                parameters:
+                  title: 'yes'
+                  description: 'yes'
+        _dataResources:
+          FAQ Content items Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /FAQ Content/items
+  _dataResources:
+    FAQ Content:
+      type: contentfulFAQs
+      variables:
+        locale: ''
+        entryIds: 5ufbsDupZTpJ7Aci58AAPI,KXpACnDBAyIv6bA4Kw4f8,5uEy4vVV7k50hQt4R6vzLU
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    FAQ Header Content:
+      type: contentfulFAQs
+      variables:
+        locale: ''
+        entryIds: 60PX6lmBgkFKF9SAy1BkDR
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+created: '2023-09-27T14:34:21.458893+00:00'
+modified: '2023-09-27T17:10:24.656971+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Accordion_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

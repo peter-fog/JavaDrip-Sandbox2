@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.233857+00:00'
+modified: '2023-10-17T10:42:35.233857+00:00'
+entry:
+  _id: 49d0524c-52c5-486e-afec-e3d00554de59
+  _name: Where future technologies meet timeless taste
+  _slug: where-future-technologies-meet-timeless-taste-c67d
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693227278/coffee-marketing/Hero_alt5_r2sgqf.png
+    title:
+      type: text
+      value: Where future technologies meet timeless taste
+    description:
+      type: text
+      value: ELEVATE EVERY ESPRESSO

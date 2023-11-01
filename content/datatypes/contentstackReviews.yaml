@@ -1,0 +1,57 @@
+id: contentstackReviews
+displayName: Reviews
+ttl: 30
+path: /content_types/${content_type_uid}/entries?${include}
+custom:
+  include: 2
+  imagePath: picture
+  searchFieldIds:
+    - product_id
+  allowContentTypeUids:
+    - testimonial
+  enableFilterByLocale: false
+method: GET
+purgeKey: 0170851e-b4a1-4b59-a3ba-5c43452818ff
+archetype: queryEntry
+variables:
+  asc:
+    type: text
+    default: ''
+    displayName: Order by asc
+  desc:
+    type: text
+    default: ''
+    displayName: Order by desc
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  query:
+    type: text
+    default: ''
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  content_type_uid:
+    type: text
+    default: testimonial
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: limit
+    value: ${limit}
+  - key: asc
+    value: ${asc}
+  - key: desc
+    value: ${desc}
+  - key: locale
+    value: ${locale}
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

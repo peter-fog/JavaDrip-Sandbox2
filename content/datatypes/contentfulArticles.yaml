@@ -1,0 +1,58 @@
+id: contentfulArticles
+displayName: Articles
+ttl: 30
+path: /entries?${filters}
+custom:
+  include: 2
+  imagePath: thumbnail
+  allowContentTypeIds:
+    - article
+  enableFilterByLocale: false
+  enableAdvancedFilters: false
+method: GET
+purgeKey: c72f98da-5286-40bd-8160-6035af60c589
+archetype: queryEntry
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  locale:
+    type: text
+    default: en-US
+    displayName: Locale
+  filters:
+    type: text
+    default: ''
+    displayName: Filters
+  keyword:
+    type: text
+    default: ''
+    displayName: Search Text
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+  contentTypeId:
+    type: text
+    default: ''
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '2'
+  - key: locale
+    value: ${locale}
+  - key: order
+    value: ${order}
+  - key: query
+    value: ${keyword}
+  - key: limit
+    value: ${limit}
+  - key: content_type
+    value: ${contentTypeId}
+dataSourceId: contentfulDataSource
+allowedOnComponents: []

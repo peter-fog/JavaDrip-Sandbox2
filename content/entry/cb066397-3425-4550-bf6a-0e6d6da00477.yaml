@@ -1,0 +1,22 @@
+created: '2023-10-24T16:13:59.578678+00:00'
+modified: '2023-10-24T21:38:40.132618+00:00'
+entry:
+  _id: cb066397-3425-4550-bf6a-0e6d6da00477
+  _name: Specialty Free shipping
+  _slug: specialty-free-shipping
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692268309/promotion/free-shipping_fb7pz8_ymvn3g.svg
+    title:
+      type: text
+      value: Specialty Free shipping
+    description:
+      type: text
+      value: >
+        Congrats!  When you purchase our Specialty Coffee Machine, you will
+        automatically get Free shipping!  Why not add some beans to your
+        purchase and really save!  Now is your time to stock up on the products
+        you love.

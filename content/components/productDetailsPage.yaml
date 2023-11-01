@@ -1,0 +1,301 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: productDetailsPage
+name: Product Details Page
+icon: file-document
+parameters:
+  - id: pageTitle
+    name: Page Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: group_metaData
+    name: Meta Data
+    type: group
+    typeConfig:
+      childrenParams:
+        - pageMetaDescription
+        - pageKeywords
+  - id: pageMetaDescription
+    name: Page Meta Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: '5'
+  - id: pageKeywords
+    name: Page Keywords
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+  - id: group_openGraph
+    name: Open Graph
+    type: group
+    typeConfig:
+      childrenParams:
+        - openGraphTitle
+        - openGraphImage
+        - openGraphType
+        - openGraphDescription
+        - overlayTitleToOgImage
+  - id: openGraphTitle
+    name: Open Graph Title
+    type: text
+    helpText: page head title
+    typeConfig: null
+  - id: openGraphDescription
+    name: Open Graph Description
+    type: text
+    helpText: >-
+      used to set `og:description`. If not set, `Page Meta Description` will be
+      used.
+    typeConfig:
+      multiline: true
+      linesCount: '5'
+  - id: openGraphImage
+    name: Open Graph Image
+    type: image
+    helpText: This will set og:image
+    typeConfig: null
+  - id: overlayTitleToOgImage
+    name: Overlay Title over Open Graph Image?
+    type: checkbox
+    helpText: if set, renders the `og:title` over the image dynamically
+    typeConfig: null
+  - id: openGraphType
+    name: Open Graph Type
+    type: select
+    helpText: sets the value of `og:type` (defalts to "website" if not specified)
+    typeConfig:
+      options:
+        - text: website
+          value: website
+        - text: video
+          value: video
+        - text: article
+          value: article
+  - id: group_twitter
+    name: Twitter
+    type: group
+    typeConfig:
+      childrenParams:
+        - twitterDescription
+        - twitterTitle
+        - twitterImage
+        - overlayTitleToTwitterImage
+        - twitterCard
+  - id: twitterTitle
+    name: Twitter Title
+    type: text
+    helpText: Sets `twitter:title`. Fallback to Page Title if not set.
+    typeConfig: null
+  - id: twitterDescription
+    name: Twitter Description
+    type: text
+    helpText: >-
+      Sets `twitter:description`. Falls back to `Page Meta Description` if not
+      set
+    typeConfig:
+      multiline: true
+      linesCount: '5'
+  - id: twitterImage
+    name: Twitter Image
+    type: image
+    helpText: Sets `twitter:image`. Fallsback to `og:image` if not set.
+    typeConfig: null
+  - id: overlayTitleToTwitterImage
+    name: Overlay Title to Twitter Image?
+    type: checkbox
+    helpText: if set, overlays content of `twitter:title` over the image dynamically
+    typeConfig: null
+  - id: twitterCard
+    name: Twitter Card
+    type: select
+    helpText: Sets the value of `twitter:card`. If not set, defaults to `summary`.
+    typeConfig:
+      options:
+        - text: summary
+          value: summary
+        - text: summary_large_image
+          value: summary_large_image
+        - text: app
+          value: app
+        - text: player
+          value: player
+  - id: pageSubcategories
+    name: Page Subcategories
+    type: json
+    helpText: ''
+    typeConfig: {}
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/page_preview_image
+useTeamPermissions: true
+slots:
+  - id: pageHeader
+    name: Page Header
+    maxComponents: 1
+    minComponents: 1
+    allowedComponents:
+      - header
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: pageContent
+    name: Page Content
+    allowedComponents:
+      - hero
+      - breadcrumbs
+      - cardBlock
+      - spacer
+      - divider
+      - $test
+      - $personalization
+      - couponHero
+      - emailSignupForm
+      - grid
+      - productGallery
+      - productInfo
+      - $p:74cc4c81-50de-4bcc-a05a-00ad738a3f45
+      - $p:2bd73ccd-3021-45ed-8cd0-fd66f0ffcd11
+      - $p:72020706-b903-4dee-a80c-1357bfe25b9e
+      - $p:e024967d-1088-435e-aee0-0c2a49d1e3a9
+      - $p:38b7dc2d-ffd4-4d45-8452-ef766cc9bd1f
+      - $p:9c906f38-6816-47aa-b497-7bb662a85e04
+      - $p:c8b897c9-19ea-4bf8-9794-52b357b9901b
+      - $p:4c17b518-0011-4a11-9e12-26d48cb3f0cd
+      - accordion
+      - container
+      - review
+      - hero
+      - $p:b3d6043e-0fd2-4ca1-bc7f-43642e7ede28
+      - $p:83683088-0560-40f7-b8b8-18360fa76d24
+      - $p:9d0e51f4-0b1f-43e4-b3ba-6b8d25e9b880
+      - $loop
+      - hero
+      - hero
+      - hero
+      - hero
+      - hero
+      - hero
+      - hero
+      - hero
+      - $p:8d24658f-fac1-4c9e-87ad-9c5842dd5c55
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+  - id: pageFooter
+    name: Page Footer
+    maxComponents: 1
+    allowedComponents:
+      - footer
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+defaults:
+  type: productDetailsPage
+  slots:
+    pageFooter:
+      - type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+        _overridability:
+          parameters:
+            syntheticGap: 'yes'
+    pageContent:
+      - type: breadcrumbs
+        parameters:
+          title:
+            type: text
+            value: Breadcrumbs
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: base-300
+          displayRootNode:
+            type: checkbox
+            value: true
+      - type: productInfo
+        _pattern: 74cc4c81-50de-4bcc-a05a-00ad738a3f45
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"light-roast-coffee-80"}]}
+              entryIds: light-roast-coffee-80
+              facetValue: ''
+        _overridability:
+          parameters:
+            delay: 'yes'
+            image: 'yes'
+            title: 'yes'
+            product: 'yes'
+            duration: 'yes'
+            features: 'yes'
+            subTitle: 'yes'
+            objectFit: 'yes'
+            fullHeight: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            overlayColor: 'yes'
+            animationType: 'yes'
+            highlightText: 'yes'
+            animationOrder: 'yes'
+            overlayOpacity: 'yes'
+            animationPreview: 'yes'
+            primaryButtonCopy: 'yes'
+            primaryButtonLink: 'yes'
+            primaryButtonStyle: 'yes'
+            secondaryButtonCopy: 'yes'
+            secondaryButtonLink: 'yes'
+            secondaryButtonStyle: 'yes'
+            primaryButtonAnimationType: 'yes'
+            secondaryButtonAnimationType: 'yes'
+      - type: cardBlock
+        variant: carousel
+        _pattern: 9c906f38-6816-47aa-b497-7bb662a85e04
+        _dataResources:
+          Products Content:
+            type: algoliaProducts
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"kosmic-coffee-barista-express-espresso-machine-115"},{"indexName":"products-ngm","objectID":"house-blend-coffee-131"},{"indexName":"products-ngm","objectID":"espresso-gpt-145"},{"indexName":"products-ngm","objectID":"irish-blend-coffee-132"}]}
+              entryIds: >-
+                kosmic-coffee-barista-express-espresso-machine-115,house-blend-coffee-131,espresso-gpt-145,irish-blend-coffee-132
+              facetValue: ''
+        _overridability:
+          variants: true
+          parameters:
+            title: 'yes'
+            group_cta: 'yes'
+            buttonCopy: 'yes'
+            buttonLink: 'yes'
+            titleStyle: 'yes'
+            buttonStyle: 'yes'
+            description: 'yes'
+            group_content: 'yes'
+            textColorVariant: 'yes'
+            buttonAnimationType: 'yes'
+  _overrides:
+    a9276b47-aad1-4bd5-a71c-00178725216f:
+      parameters:
+        description:
+          type: text
+          value: Some of our best sellers for you
+    e8e65bcf-6ee8-482e-9e3c-360f8c12cf42:
+      parameters:
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h2
+titleParameter: pageTitle
+canBeComposition: true
+created: '2023-10-23T13:08:20.519193+00:00'
+updated: '2023-10-24T12:46:48.513032+00:00'

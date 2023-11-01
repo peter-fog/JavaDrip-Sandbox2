@@ -1,0 +1,45 @@
+created: '2023-10-17T07:57:46.517379+00:00'
+modified: '2023-10-17T07:57:46.517379+00:00'
+entry:
+  _id: f0932427-ec90-4f33-a99c-5bc5dfe0bddb
+  _name: Remarkable
+  _slug: remarkable
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: ''
+    stars:
+      type: text
+      value: ''
+    title:
+      type: text
+      value: Remarkable
+    picture:
+      type: image
+      value: ''
+    lastName:
+      type: text
+      value: Tinsley
+    location:
+      type: text
+      value: London
+    firstName:
+      type: text
+      value: Cooper
+    productId:
+      type: text
+      value: black-mountain-pour-over-coffee-maker-97
+    experience:
+      type: text
+      value: >-
+        I am absolutely thrilled to share my glowing review for this remarkable
+        coffee bean vendor! Their beans are nothing short of extraordinary,
+        delivering an exquisite and rich flavor that lingers on the palate with
+        every sip. The aroma alone is enough to awaken the senses and set the
+        perfect tone for the day. The attention to detail and commitment to
+        quality truly shine through in each batch of beans, and it's evident
+        that they take great pride in their craft. From the smooth customer
+        experience to the prompt delivery, this vendor has undoubtedly won me
+        over as a loyal customer. If you're a coffee enthusiast seeking
+        perfection in every cup, look no further – this vendor is a true gem!

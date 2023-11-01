@@ -1,0 +1,46 @@
+created: '2023-10-17T07:57:45.587515+00:00'
+modified: '2023-10-17T07:57:45.587515+00:00'
+entry:
+  _id: d4293015-fbce-45d5-ab6a-1ca217250b63
+  _name: Epitome of coffee bean perfection
+  _slug: epitome-of-coffee-bean-perfection
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: ''
+    stars:
+      type: text
+      value: ''
+    title:
+      type: text
+      value: Epitome of coffee bean perfection
+    picture:
+      type: image
+      value: ''
+    lastName:
+      type: text
+      value: Parker
+    location:
+      type: text
+      value: New York
+    firstName:
+      type: text
+      value: Alex
+    productId:
+      type: text
+      value: organic-blend-coffee-133
+    experience:
+      type: text
+      value: >-
+        If you're seeking the epitome of coffee bean perfection, look no further
+        than this extraordinary coffee bean vendor! Their beans are an absolute
+        revelation, producing the most exquisite and richly flavored brews I've
+        ever experienced. From the moment I opened the bag, the enticing aroma
+        enveloped my senses, setting the stage for an unparalleled coffee
+        journey. The beans' quality is unmatched, and the care taken in sourcing
+        and roasting is evident in every sip. Whether it's a velvety latte or a
+        bold espresso, these beans consistently deliver an unrivaled coffee
+        experience. Undoubtedly, this remarkable coffee bean vendor has
+        transformed my morning ritual into an enchanting and indulgent affair.
+        Highly recommended!

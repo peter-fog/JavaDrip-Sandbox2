@@ -1,0 +1,27 @@
+created: '2023-10-17T05:57:44.128844+00:00'
+modified: '2023-10-17T05:57:44.128844+00:00'
+entry:
+  _id: 6b02d6a0-e4bf-483e-82ef-08083fd97ddb
+  _name: >-
+    AI-optimized grinding and delivery ensures that every coffee is just how you
+    like it
+  _slug: >-
+    ai-optimized-grinding-and-delivery-ensures-that-every-coffee-is-just-how-you-like-it
+  type: featuredCallout
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267184/coffee-marketing/smart_feature1_ldlqat_x1vniu_wow0tp_kjzqhn.webp
+    title:
+      type: text
+      value: >-
+        AI-optimized grinding and delivery ensures that every coffee is just how
+        you like it
+    description:
+      type: text
+      value: >-
+        Not everyone has decades of experience selecting, roasting and grinding
+        coffee - but that doesn’t mean they don’t deserve a perfect espresso
+        every time. That’s why we’ve worked with the industry’s top experts to
+        create an AI system that gives you the coffee you deserve.

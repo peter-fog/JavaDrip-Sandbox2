@@ -1,0 +1,88 @@
+created: '2023-10-17T06:38:46.58147+00:00'
+modified: '2023-10-17T06:54:11.730631+00:00'
+entry:
+  _id: 7bfd75f1-3c74-4611-9568-a2ce233815b8
+  _name: How to brew a proper cuppa'
+  _slug: how-to-brew-a-proper-cuppa
+  type: article
+  fields:
+    tag:
+      type: select
+      value: Beans
+    title:
+      type: text
+      value: How to brew a proper cuppa'
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Kombucha nilgiri white london fog latte loose leaf
+                    lemongrass oolong tea gyokuro tea time rooibos focus boba.
+                    London fog nilgiri sencha hojicha infusion green oolong
+                    lapsang souchong mint tea kettle. Antioxidant bamboo whisk
+                    tisane boba nilgiri orange pekoe loose leaf hong kong-style
+                    milk keemun gaiwan herbal zen. Herbal pu’erh fair trade
+                    black assam guayusa nokcha shincha bamboo whisk guayusa
+                    scented camellia sinensis focus steep. Taro ginger assam
+                    mint lapsang souchong rooibos irish breakfast hojicha tea
+                    time taro rize earl grey camellia sinensis camellia sinensis
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Kombucha nilgiri white london fog latte loose leaf
+                    lemongrass oolong tea gyokuro tea time rooibos focus boba.
+                    London fog nilgiri sencha hojicha infusion green oolong
+                    lapsang souchong mint tea kettle. Antioxidant bamboo whisk
+                    tisane boba nilgiri orange pekoe loose leaf hong kong-style
+                    milk keemun gaiwan herbal zen. Herbal pu’erh fair trade
+                    black assam guayusa nokcha shincha bamboo whisk guayusa
+                    scented camellia sinensis focus steep. Taro ginger assam
+                    mint lapsang souchong rooibos irish breakfast hojicha tea
+                    time taro rize earl grey camellia sinensis camellia
+                    sinensis.Kombucha nilgiri white london fog latte loose leaf
+                    lemongrass oolong tea gyokuro tea time rooibos focus boba.
+                    London fog nilgiri sencha hojicha infusion green oolong
+                    lapsang souchong mint tea kettle. Antioxidant bamboo whisk
+                    tisane boba nilgiri orange pekoe loose leaf hong kong-style
+                    milk keemun gaiwan herbal zen. Herbal pu’erh fair trade
+                    black assam guayusa nokcha shincha bamboo whisk guayusa
+                    scented camellia sinensis focus steep. Taro ginger assam
+                    mint lapsang souchong rooibos irish breakfast hojicha tea
+                    time taro rize earl grey camellia sinensis camellia
+                    sinensis.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    thumbnail:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1697525642/coffee-marketing/cuppa_article_thumb_lzz7oq.jpg
+    description:
+      type: text
+      value: A Brit's guide to the national drink

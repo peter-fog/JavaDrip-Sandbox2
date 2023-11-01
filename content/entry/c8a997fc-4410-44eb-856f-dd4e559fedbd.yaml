@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.031371+00:00'
+modified: '2023-10-17T10:42:35.031371+00:00'
+entry:
+  _id: c8a997fc-4410-44eb-856f-dd4e559fedbd
+  _name: It's tax time
+  _slug: its-tax-time-a30c
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692268750/coffee-marketing/photo-1470326030020-86a5ef9ca428_zjr8pt.png
+    title:
+      type: text
+      value: It's tax time
+    description:
+      type: text
+      value: Time for a new percolator?

@@ -1,0 +1,18 @@
+created: '2023-10-17T05:55:32.603142+00:00'
+modified: '2023-10-17T05:55:32.603142+00:00'
+entry:
+  _id: fe58efd1-13b6-4227-9de3-79769d00abf1
+  _name: It's your birthday!
+  _slug: its-your-birthday
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269068/coffee-marketing/photo-1530103862676-de8c9debad1d_lxpugs.png
+    title:
+      type: text
+      value: It's your birthday!
+    description:
+      type: text
+      value: 15% off all products.

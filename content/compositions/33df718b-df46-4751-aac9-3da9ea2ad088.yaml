@@ -1,0 +1,299 @@
+composition:
+  _name: JavaDrip Specialty
+  _id: 33df718b-df46-4751-aac9-3da9ea2ad088
+  _slug: javadrip-specialty-coffee-maker
+  type: productDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      value: Product Details Page
+  slots:
+    pageFooter:
+      - _id: 900d8580-5ce4-41ac-96bb-6d4c62cf7842
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 1b41ec3b-7586-4fe9-abb2-d2b042c82b66
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 79643ec4-5f23-4b9f-b521-10c1ff2b8cc5
+        type: container
+        slots:
+          container-inner:
+            - _id: cf2cf0d9-6675-4f2f-b5ed-ecbdb2bbb1db
+              type: breadcrumbs
+              parameters:
+                separator:
+                  type: select
+                  value: chevron
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: secondary
+                displayRootNode:
+                  type: checkbox
+                  value: true
+                displayPlaceholderNodes:
+                  type: checkbox
+                  value: true
+        parameters:
+          title:
+            type: text
+            value: Breadcrumb
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 1dbba8f7-b173-4b04-8ece-40525aadea8e
+        type: hero
+        _pattern: b3d6043e-0fd2-4ca1-bc7f-43642e7ede28
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+      - _id: fa69a44a-a3b4-48f0-9f98-53b4a3215c75
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 0396322e-ec03-4874-876e-5ed14ed1b2e2
+        type: productInfo
+        _pattern: 74cc4c81-50de-4bcc-a05a-00ad738a3f45
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"javadrip-specialty-coffee-maker"}]}
+              entryIds: javadrip-specialty-coffee-maker
+              facetValue: ''
+      - _id: b2b53762-1ede-4733-9118-6498bf25f0c6
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: 5ec5746a-50a3-4890-93b2-5b94d38d9ed0
+        type: grid
+        _pattern: e024967d-1088-435e-aee0-0c2a49d1e3a9
+        _dataResources:
+          Features Content:
+            type: contentstackFeatures
+            variables:
+              query: >-
+                { "uid": { "$in":
+                ["bltf3830966ade2cd7e","blt53b8f1f6111c6c22","blt6fbc0d653b84e11e"]
+                } }
+              locale: ''
+              include: ''
+              entryUids: bltf3830966ade2cd7e,blt53b8f1f6111c6c22,blt6fbc0d653b84e11e
+              content_type_uid: product_feature
+      - _id: b9d40e7f-0af0-4d97-9e2b-441a02c828c5
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: aff46f7a-9cac-4b73-8e2b-361853fc3ef0
+        type: productGallery
+        _pattern: 2bd73ccd-3021-45ed-8cd0-fd66f0ffcd11
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"javadrip-specialty-coffee-maker"}]}
+              entryIds: javadrip-specialty-coffee-maker
+              facetValue: ''
+      - _id: 84ac49bb-3866-4f43-ab64-cfe6591c4a46
+        type: container
+        slots:
+          container-inner:
+            - _id: 3d42874a-2083-42fc-be00-7e6c75f54894
+              type: grid
+              _pattern: 9d0e51f4-0b1f-43e4-b3ba-6b8d25e9b880
+              _dataResources:
+                Reviews Content:
+                  type: contentstackReviews
+                  variables:
+                    asc: ''
+                    desc: updated_at
+                    limit: '3'
+                    query: >-
+                      { "product_id": { "$regex":
+                      "javadrip-specialty-coffee-maker", "$options": "i" } }
+                    locale: ''
+                    include: ''
+                    keyword: javadrip-specialty-coffee-maker
+                    sortOrder: desc
+                    sortFieldId: updated_at
+                    content_type_uid: testimonial
+        parameters:
+          title:
+            type: text
+            value: Reviews
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 21d42e9e-7861-421c-b2c1-86bd3b0c2d40
+        type: cardBlock
+        _pattern: 9c906f38-6816-47aa-b497-7bb662a85e04
+        _dataResources:
+          Products Content:
+            type: algoliaProducts
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"water-reservoir-with-flip-top-lid-149"},{"indexName":"products-ngm","objectID":"glass-carafe-brew-through-lid-146"},{"indexName":"products-ngm","objectID":"coffee-permanent-filter-147"},{"indexName":"products-ngm","objectID":"coffee-removable-filter-holder-148"},{"indexName":"products-ngm","objectID":"frother-whisk-150"}]}
+              entryIds: >-
+                water-reservoir-with-flip-top-lid-149,glass-carafe-brew-through-lid-146,coffee-permanent-filter-147,coffee-removable-filter-holder-148,frother-whisk-150
+              facetValue: ''
+      - _id: 5a4f8f14-c43a-4e9c-9e25-4fe450626291
+        type: hero
+        variant: backgroundImage
+        parameters:
+          video:
+            type: cloudinary-video
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/v1693484203/coffee-marketing/Meet_the_Specialty_nhdmh7.mp4
+                uuid: 32a118b0-3c49-4c30-a203-48bb8b8cad08
+                width: '1920'
+                format: mp4
+                height: '1080'
+                caption: ''
+                version: 1693484203
+                publicId: coffee-marketing/Meet_the_Specialty_nhdmh7
+                createdAt: '2023-08-31T12:16:43Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/coffee-marketing/Meet_the_Specialty_nhdmh7.mp4
+                resourceType: video
+                transformation: ''
+          objectFit:
+            type: select
+            value: fill
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+  _dataResources:
+    Features Content:
+      type: contentfulFeatures
+      variables:
+        locale: ''
+        entryIds: >-
+          3pShHM1eiqGCCCrNxOaYiA,178rQlAAsf5l4lBXUvD0Wy,1e7LWh6CnRh3DRxrk016LA,63oHRSoOtknOP6Em5RDHpZ,1AcJkC8r6EH4wj7Bz43F9A
+  _overrides:
+    1b41ec3b-7586-4fe9-abb2-d2b042c82b66:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: None
+    1dbba8f7-b173-4b04-8ece-40525aadea8e:
+      parameters:
+        video:
+          type: cloudinary-video
+          value:
+            - alt: ''
+              url: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/v1694213844/coffee-marketing/Specialty_Animation_co3vth.mp4
+              uuid: a409d788-b2ca-4fd1-9c70-ab5f9b70fa65
+              width: '1920'
+              format: mp4
+              height: '1080'
+              caption: ''
+              version: 1694213844
+              publicId: coffee-marketing/Specialty_Animation_co3vth
+              createdAt: '2023-09-08T22:57:24Z'
+              previewUrl: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/coffee-marketing/Specialty_Animation_co3vth.mp4
+              resourceType: video
+              transformation: ''
+        paddingTop:
+          type: select
+          value: None
+        paddingBottom:
+          type: select
+          value: None
+        containerVariant:
+          type: select
+          value: fluidContent
+    21d42e9e-7861-421c-b2c1-86bd3b0c2d40:
+      parameters:
+        title:
+          type: text
+          value: Recommended Accessorie
+        description:
+          type: text
+          value: Parts and Accessories for the JavaDrip Specialty
+    3d42874a-2083-42fc-be00-7e6c75f54894:
+      parameters:
+        columnsCount:
+          type: tp-slider-parameter
+          value: '1'
+    5ec5746a-50a3-4890-93b2-5b94d38d9ed0:
+      parameters:
+        columnsCount:
+          type: tp-slider-parameter
+          value: '3'
+    aff46f7a-9cac-4b73-8e2b-361853fc3ef0:
+      parameters:
+        paddingTop:
+          type: select
+          value: None
+        paddingBottom:
+          type: select
+          value: None
+    21d42e9e-7861-421c-b2c1-86bd3b0c2d40|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      variant: featured
+      parameters:
+        badge:
+          type: text
+          value: Accessory
+        description:
+          type: text
+          value: >-
+            ${#jptr:/Product Content results Loop Item/description}. Price
+            $${#jptr:/Product Content results Loop Item/price}
+        textColorVariant:
+          type: select
+          value: Dark
+    3d42874a-2083-42fc-be00-7e6c75f54894|4b397edf-0cea-4256-a50c-68a55b19db9c:
+      variant: multiColumn
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+created: '2023-10-23T09:00:37.134982+00:00'
+modified: '2023-10-23T09:47:59.641222+00:00'
+pattern: false

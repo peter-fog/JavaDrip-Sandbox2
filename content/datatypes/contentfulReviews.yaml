@@ -1,0 +1,55 @@
+id: contentfulReviews
+displayName: Reviews
+ttl: 30
+path: /entries?${filters}${contentTypeQuery}
+custom:
+  include: 2
+  imagePath: picture
+  searchField:
+    id: fields.productId
+    type: Symbol
+  allowContentTypeIds:
+    - testimonial
+  enableFilterByLocale: false
+  enableAdvancedFilters: false
+method: GET
+purgeKey: 5ceda263-f17c-45d7-8171-a616cdd09c0b
+archetype: queryEntry
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  filters:
+    type: text
+    default: ''
+    displayName: Filters
+  keyword:
+    type: text
+    default: ''
+    displayName: Search Text
+  contentTypeQuery:
+    type: text
+    default: ''
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '2'
+  - key: locale
+    value: ${locale}
+  - key: order
+    value: ${order}
+  - key: fields.productId[match]
+    value: ${keyword}
+  - key: limit
+    value: ${limit}
+dataSourceId: contentfulDataSource
+allowedOnComponents: []

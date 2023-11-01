@@ -1,0 +1,38 @@
+created: '2023-10-17T07:57:46.444467+00:00'
+modified: '2023-10-17T07:57:46.444467+00:00'
+entry:
+  _id: b87c91d3-28e7-4c5a-926b-a51f688ce9be
+  _name: Great coffee maker
+  _slug: great-coffee-maker
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: ''
+    stars:
+      type: text
+      value: '5'
+    title:
+      type: text
+      value: Great coffee maker
+    picture:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693429648/csk-marketing/luis-villasmil-Z4rqvRpRj38_w9ex7r.jpg
+    lastName:
+      type: text
+      value: ''
+    location:
+      type: text
+      value: ''
+    firstName:
+      type: text
+      value: Bflogal716
+    productId:
+      type: text
+      value: javadrip-specialty-coffee-maker
+    experience:
+      type: text
+      value: >-
+        Great coffee maker, it makes all different sizes and has a great
+        frother.

@@ -1,0 +1,51 @@
+composition:
+  _name: Shopping Cart
+  _id: bb141407-8f27-4cf0-af4d-a4868c7634b9
+  _slug: shopping-cart
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: Shopping Cart Page
+  slots:
+    pageFooter:
+      - _id: 7536f74f-16c5-4b3c-a44a-7a1ff0617cb7
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 79ad0c7c-ca05-4e0e-b940-080cc1989bf3
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 95f0b1d9-ed0f-4d50-a0be-593e123a6df7
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: d3785f21-45e1-4d66-b1cc-cced8d7c5954
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 3b6303ee-41f5-4c3b-8ba1-901235672d1c
+        type: shoppingCartContent
+  _overrides:
+    79ad0c7c-ca05-4e0e-b940-080cc1989bf3:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+created: '2023-09-28T09:23:28.976958+00:00'
+modified: '2023-09-29T09:18:03.194364+00:00'
+pattern: false

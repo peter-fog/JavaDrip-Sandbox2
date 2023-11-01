@@ -1,0 +1,24 @@
+created: '2023-10-17T05:56:39.692287+00:00'
+modified: '2023-10-17T05:56:39.692287+00:00'
+entry:
+  _id: 1d7d57a6-d242-4d30-8723-e4dc11f80a3d
+  _name: Easy to clean modular design
+  _slug: easy-to-clean-modular-design
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692267184/coffee-marketing/smart_feature4_y34ihs_vvyh24_tgoitt_xq1ifk.webp
+    title:
+      type: text
+      value: Easy to clean modular design
+    description:
+      type: text
+      value: >-
+        Just because you want a better taste experience than pods, doesn’t mean
+        you want coffee grinds all over your worktop. Our smart system keeps the
+        whole process contained, avoiding the spills you get with a normal
+        machine. By making the brewing components removable and
+        machine-washable, it’s easy to keep your Cervello di Caffè looking and
+        tasting new

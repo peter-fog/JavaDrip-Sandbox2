@@ -1,0 +1,46 @@
+composition:
+  _name: Hero - Coupon (cf)
+  _id: 9582f2a8-399f-4077-9a74-917a95f8ab87
+  type: couponHero
+  parameters:
+    icon:
+      type: cloudinary-image
+      value:
+        - alt: ''
+          url: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692268309/promotion/free-shipping_fb7pz8_ymvn3g.svg
+          uuid: da82cf45-2022-48cf-9a57-9cf9c4f86e78
+          width: '113'
+          format: svg
+          height: '113'
+          caption: ''
+          version: 1692268309
+          publicId: promotion/free-shipping_fb7pz8_ymvn3g
+          createdAt: '2023-08-17T10:31:49Z'
+          previewUrl: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/q_auto,f_auto/promotion/free-shipping_fb7pz8_ymvn3g.svg
+          resourceType: image
+          transformation: ''
+    title:
+      type: text
+      value: ${#jptr:/Call to Action Content/fields/title}
+    textColorVariant:
+      type: select
+      value: Dark
+    couponCode:
+      type: text
+      value: 2ME4FREE
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h3
+  _dataResources:
+    Call to Action Content:
+      type: contentfulCallToAction
+      variables:
+        locale: ''
+        entryIds: 7hSYWbTDzwimMAOlWwy6an
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+created: '2023-09-27T15:40:21.616001+00:00'
+modified: '2023-09-27T15:42:09.78988+00:00'
+pattern: true

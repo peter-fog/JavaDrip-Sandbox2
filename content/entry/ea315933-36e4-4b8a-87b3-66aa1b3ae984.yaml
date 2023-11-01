@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:34.626191+00:00'
+modified: '2023-10-17T10:42:34.626191+00:00'
+entry:
+  _id: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+  _name: Announcing the JavaDrip Specialty Coffee Maker!!!
+  _slug: announcing-the-javadrip-specialty-coffee-maker-71bd
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693408736/products/JavaDrip_Specialty_-_Primary_c8wmcu.jpg
+    title:
+      type: text
+      value: Announcing the JavaDrip Specialty Coffee Maker!!!
+    description:
+      type: text
+      value: Our first feature packed machine that won't break your budget

@@ -1,0 +1,23 @@
+created: '2023-10-17T05:55:32.545647+00:00'
+modified: '2023-10-17T05:55:32.545647+00:00'
+entry:
+  _id: 47284722-081b-448e-9610-b248122a8e5e
+  _name: Buy one, get one free
+  _slug: buy-one-get-one-free
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269603/promotion/bogo_o4vuoj_prqjtg.svg
+    title:
+      type: text
+      value: Buy one, get one free
+    description:
+      type: text
+      value: >-
+        Purchase one item and receive another item of equal or lesser value for
+        free. Now is your time to stock up on the products you love.
+
+
+        JD-BOGO

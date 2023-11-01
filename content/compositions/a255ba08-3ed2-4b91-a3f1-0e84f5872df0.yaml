@@ -1,0 +1,169 @@
+composition:
+  _name: Product Details Page
+  _id: a255ba08-3ed2-4b91-a3f1-0e84f5872df0
+  _slug: ':product-slug'
+  type: productDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      value: ${#jptr:/Product Content/results/0/name} Details Page
+    pageSubcategories:
+      type: json
+      value: ${#jptr:/Product Content/results/0/subCategories}
+  slots:
+    pageFooter:
+      - _id: 0a8873bf-ce39-4861-92f2-1728b4cdc73c
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 71a988e9-c24f-4aa4-a732-f6fd847c5774
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 4f4143a5-1734-4fc9-9bee-f479cdfcea04
+        type: container
+        slots:
+          container-inner:
+            - _id: d7b5afe6-9ab0-4546-862f-57d5a6c1fee0
+              type: breadcrumbs
+              parameters:
+                separator:
+                  type: select
+                  value: chevron
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: accent
+                displayRootNode:
+                  type: checkbox
+                  value: true
+                displayPlaceholderNodes:
+                  type: checkbox
+                  value: true
+        variant: ''
+        parameters:
+          title:
+            type: text
+            value: Hello Breadcrumb
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 09a286a5-c8d4-4bf1-b8c2-2932160859f1
+        type: productInfo
+        _pattern: 74cc4c81-50de-4bcc-a05a-00ad738a3f45
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"${product-slug}"}]}
+              entryIds: ${product-slug}
+              facetValue: ''
+      - _id: 58297313-848e-4bfb-b136-767a876d5bb8
+        type: productGallery
+        _pattern: 2bd73ccd-3021-45ed-8cd0-fd66f0ffcd11
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"${product-slug}"}]}
+              entryIds: ${product-slug}
+              facetValue: ''
+      - _id: 86780bea-ec90-4771-ac3f-694f5f887190
+        type: container
+        slots:
+          container-inner:
+            - _id: df231f6f-dcb4-4b7f-92ad-35679cf96d86
+              type: cardBlock
+              _pattern: c8b897c9-19ea-4bf8-9794-52b357b9901b
+              _dataResources:
+                Recommend Products Content:
+                  type: algoliaRecommendProducts
+                  variables:
+                    body: >-
+                      {"requests":[{"threshold":0,"maxRecommendations":5,"objectID":"${product-slug}","model":"related-products","indexName":"products-ngm","queryParameters":{"query":"","facetFilters":[]}}]}
+                    path: /*/recommendations
+                    query: ''
+                    objectID: ${product-slug}
+                    threshold: '0'
+                    facetValues: ''
+                    maxRecommendations: '5'
+        parameters:
+          title:
+            type: text
+            value: Algolia Recommend Products
+          paddingTop:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Medium
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+  _dataResources:
+    Product Content:
+      type: algoliaProduct
+      variables:
+        body: >-
+          {"requests":[{"indexName":"products-ngm","objectID":"${product-slug}"}]}
+        entryIds: ${product-slug}
+        facetValue: ''
+  _overrides:
+    58297313-848e-4bfb-b136-767a876d5bb8:
+      parameters:
+        paddingTop:
+          type: select
+          value: Small
+        paddingBottom:
+          type: select
+          value: None
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Light
+        animationOrder:
+          type: select
+          value: oneByOne
+    df231f6f-dcb4-4b7f-92ad-35679cf96d86:
+      parameters:
+        title:
+          type: text
+          value: Recommend Products
+        textColorVariant:
+          type: select
+          value: Light
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    df231f6f-dcb4-4b7f-92ad-35679cf96d86|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              product-slug: ${#jptr:/Product Content results Loop Item/slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+created: '2023-09-28T11:58:54.712879+00:00'
+modified: '2023-09-29T09:37:48.331086+00:00'
+pattern: false

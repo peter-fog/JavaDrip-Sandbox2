@@ -1,0 +1,116 @@
+composition:
+  _name: Card Block - products selector (alg)
+  _id: 9c906f38-6816-47aa-b497-7bb662a85e04
+  type: cardBlock
+  variant: carousel
+  parameters:
+    title:
+      type: text
+      value: Recommended Products
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: primary
+  slots:
+    cardBlockInner:
+      - _id: ce33805b-4f53-459d-8c1b-b31e7371bc25
+        type: $loop
+        slots:
+          body:
+            - _id: 98ef4404-7adc-4d1b-bd62-e17bc229352b
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  value: ${#jptr:/Product Content results Loop Item/subCategories/0}
+                image:
+                  type: image
+                  value: ${#jptr:/Product Content results Loop Item/thumbnailImage}
+                title:
+                  type: text
+                  value: ${#jptr:/Product Content results Loop Item/name}
+                badgeSize:
+                  type: select
+                  value: md
+                objectFit:
+                  type: select
+                  value: cover
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: accent
+                buttonCopy:
+                  type: text
+                  value: See Details
+                buttonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+                description:
+                  type: text
+                  value: ${#jptr:/Product Content results Loop Item/description}
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: '5'
+              _overridability:
+                variants: true
+                parameters:
+                  slug: 'yes'
+                  badge: 'yes'
+                  delay: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  duration: 'yes'
+                  badgeSize: 'yes'
+                  group_cta: 'yes'
+                  objectFit: 'yes'
+                  badgeStyle: 'yes'
+                  buttonCopy: 'yes'
+                  buttonLink: 'yes'
+                  buttonStyle: 'yes'
+                  description: 'yes'
+                  group_badge: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  group_content: 'yes'
+                  overlayOpacity: 'yes'
+                  animationPreview: 'yes'
+                  textColorVariant: 'yes'
+                  group_description: 'yes'
+                  buttonAnimationType: 'yes'
+                  lineCountRestriction: 'yes'
+        _dataResources:
+          Product Content results Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /Products Content/results
+  _dataResources:
+    Products Content:
+      type: algoliaProducts
+      variables:
+        body: >-
+          {"requests":[{"indexName":"products-ngm","objectID":"black-mountain-pour-over-coffee-maker-97"},{"indexName":"products-ngm","objectID":"black-mountain-french-press-coffee-maker-126"}]}
+        entryIds: >-
+          black-mountain-pour-over-coffee-maker-97,black-mountain-french-press-coffee-maker-126
+        facetValue: Coffee Makers
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      title: 'yes'
+      group_cta: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      titleStyle: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      group_content: 'yes'
+      textColorVariant: 'yes'
+      buttonAnimationType: 'yes'
+created: '2023-09-28T09:23:28.564602+00:00'
+modified: '2023-10-04T08:52:35.114372+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Card_block_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

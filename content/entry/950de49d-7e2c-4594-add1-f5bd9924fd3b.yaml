@@ -1,0 +1,20 @@
+created: '2023-10-17T05:54:44.035238+00:00'
+modified: '2023-10-17T05:54:44.035238+00:00'
+entry:
+  _id: 950de49d-7e2c-4594-add1-f5bd9924fd3b
+  _name: Let us know how you have bean.
+  _slug: let-us-know-how-you-have-bean
+  type: callToAction
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269272/coffee-marketing/photo-1618832127223-a72a454a66c7_uruyjo_v9du0s.jpg
+    title:
+      type: text
+      value: Let us know how you have bean.
+    description:
+      type: text
+      value: >-
+        See what we did there? 😀 But seriously, please let us know if you have
+        any questions and we will get back with you shortly. Thank you.

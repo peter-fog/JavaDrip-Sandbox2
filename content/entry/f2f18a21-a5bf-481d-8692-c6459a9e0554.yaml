@@ -1,0 +1,36 @@
+created: '2023-10-17T07:36:11.939692+00:00'
+modified: '2023-10-17T07:36:11.939692+00:00'
+entry:
+  _id: f2f18a21-a5bf-481d-8692-c6459a9e0554
+  _name: EspressoGPT Overview
+  _slug: espressogpt-overview
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693309094/products/EspressoGPT_image_1.jpg
+    title:
+      type: text
+      value: EspressoGPT Overview
+    productId:
+      type: text
+      value: espresso-gpt-145
+    description:
+      type: text
+      value: >-
+        Where future technologies meet timeless taste.  Experience coffee like
+        never before. From the moment you power up the EspressoGPT, you're not
+        just brewing an espresso—you're entering the future of coffee. Welcome
+        to a universe of unparalleled taste and sophistication.
+
+
+        When we speak of the 'perfect coffee bean', it's more than just a
+        catchphrase. To us, it embodies a journey of passion, precision, and
+        perseverance.  Featuring an intuitive interface holographic display, a
+        modern design, and AI powered taste preferences
+
+
+        EspressoGPT is not just a product but a testament to our ethos. It
+        represents our unwavering commitment to delivering our best to a global
+        community of coffee lovers.

@@ -1,0 +1,57 @@
+composition:
+  _name: Profile
+  _id: b699eebe-b3ab-48c6-aa45-514aff125d8f
+  _slug: profile
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: Profile Page
+  slots:
+    pageFooter:
+      - _id: b2761163-2b1c-4ad2-837b-42323aa3456e
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 0501cbc2-0d13-44c3-a57e-2f4716c8bd83
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: d1c4bcfc-8d0d-41ed-9740-808a4f25de54
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: 3927e8d9-41d2-4fd4-bfe9-562a83170f20
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: e78f2e35-7de4-4884-9327-ac2c905ed70d
+        type: profileContent
+      - _id: c50d5250-6842-4691-b62f-5667ffd1a0df
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+  _overrides:
+    0501cbc2-0d13-44c3-a57e-2f4716c8bd83:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+created: '2023-09-28T09:23:31.191484+00:00'
+modified: '2023-09-29T09:17:53.74381+00:00'
+pattern: false

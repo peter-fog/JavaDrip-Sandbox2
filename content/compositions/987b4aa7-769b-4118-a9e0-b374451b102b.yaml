@@ -1,0 +1,499 @@
+composition:
+  _name: Home
+  _id: 987b4aa7-769b-4118-a9e0-b374451b102b
+  _slug: /
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: Home Page
+  slots:
+    pageFooter:
+      - _id: 14be8abf-2cdf-4f00-b788-ef63e05c3a0f
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 4322cc34-6a4c-4585-a0ea-4f526b98c2f4
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 612324ab-44d8-4ac5-bc6b-1aa38bb226bb
+        type: $personalization
+        slots:
+          pz:
+            - _id: 125eb33e-a1c0-45b6-bf99-f92d7afc3b0f
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: image
+                  value: >-
+                    https://res.cloudinary.com/uniform-demos/image/upload/v1692267184/coffee-marketing/cervello_smart_landing_hero_kh0vi3_rjpun1_qfuwvv.png
+                title:
+                  type: text
+                  value: EspressoGPT is here
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: bigSpender
+                        r: 0
+                        op: '>'
+                    name: 'Hero: Cervello is here!'
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  value: >-
+                    this machine is able to detect your coffee needs and adjust
+                    to your taste and habits.
+                eyebrowText:
+                  type: text
+                  value: smartest coffee machine in the world
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 50%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+                primaryButtonCopy:
+                  type: text
+                  value: See it in action!
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /products/espresso-gpt-145
+                    type: url
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: secondary
+            - _id: b0fa9f26-3090-46e3-ae99-5267bae098c1
+              type: hero
+              _pattern: b3d6043e-0fd2-4ca1-bc7f-43642e7ede28
+              _dataResources:
+                Hero Content:
+                  type: hero
+                  variables:
+                    entryId: 2efa5d69-649d-456b-a64a-be7c2df85377
+            - _id: 7b87d3ed-a82a-4e98-94e5-4dbb5c654b66
+              type: hero
+              _pattern: b3d6043e-0fd2-4ca1-bc7f-43642e7ede28
+              _dataResources:
+                Hero Content:
+                  type: hero
+                  variables:
+                    entryId: 3377b10a-5e94-4820-a66e-d2281d298159
+            - _id: f5172334-e2ef-44b6-b0d0-a3887fdbe594
+              type: hero
+              _pattern: b3d6043e-0fd2-4ca1-bc7f-43642e7ede28
+              _dataResources:
+                Hero Content:
+                  type: hero
+                  variables:
+                    entryId: 649b782f-9d2b-4240-b596-2175e55b0a5f
+        parameters:
+          count:
+            type: number
+            value: '1'
+          trackingEventName:
+            type: text
+            value: Home Hero
+      - _id: 1006dd1b-b35b-4ca8-bba8-de80d47ae810
+        type: callToAction
+        _pattern: a7aa42e0-9225-4909-8fb1-9d1bac72848c
+        _dataResources:
+          Call To Action Content:
+            type: callToAction
+            variables:
+              entryId: da54b631-13fe-43b8-a427-01d1b8ea430d
+      - _id: 05d5d39a-6949-4f30-8e8f-cd1d366452f2
+        type: cardBlock
+        _pattern: 9c906f38-6816-47aa-b497-7bb662a85e04
+        _dataResources:
+          Products Content:
+            type: algoliaProducts
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"espresso-gpt-145"},{"indexName":"products-ngm","objectID":"cervello-di-caffe-140"},{"indexName":"products-ngm","objectID":"javadrip-specialty-coffee-maker"},{"indexName":"products-ngm","objectID":"kosmic-coffee-barista-express-espresso-machine-115"},{"indexName":"products-ngm","objectID":"royale-iq-espresso-machine-117"},{"indexName":"products-ngm","objectID":"kosmic-coffee-stainless-steel-precision-brewer-116"},{"indexName":"products-ngm","objectID":"impresso-pump-espresso-118"}]}
+              entryIds: >-
+                espresso-gpt-145,cervello-di-caffe-140,javadrip-specialty-coffee-maker,kosmic-coffee-barista-express-espresso-machine-115,royale-iq-espresso-machine-117,kosmic-coffee-stainless-steel-precision-brewer-116,impresso-pump-espresso-118
+              facetValue: ''
+      - _id: 604f6c17-4ee8-457b-9ada-a710237f9741
+        type: container
+        slots:
+          container-inner:
+            - _id: e0a70c29-840b-4a52-9657-0ac9c6338f2f
+              type: cardBlock
+              _pattern: 9c906f38-6816-47aa-b497-7bb662a85e04
+              _dataResources:
+                Products Content:
+                  type: algoliaProducts
+                  variables:
+                    body: >-
+                      {"requests":[{"indexName":"products-ngm","objectID":"medium-roast-coffee-81"},{"indexName":"products-ngm","objectID":"light-roast-coffee-80"},{"indexName":"products-ngm","objectID":"peruvian-blend-coffee-134"},{"indexName":"products-ngm","objectID":"breakfast-blend-coffee-128"},{"indexName":"products-ngm","objectID":"organic-blend-coffee-133"},{"indexName":"products-ngm","objectID":"dark-roast-coffee-113"}]}
+                    entryIds: >-
+                      medium-roast-coffee-81,light-roast-coffee-80,peruvian-blend-coffee-134,breakfast-blend-coffee-128,organic-blend-coffee-133,dark-roast-coffee-113
+                    facetValue: Beans
+        parameters:
+          title:
+            type: text
+            value: Our smart coffee beans
+          paddingTop:
+            type: select
+            value: Medium
+          paddingBottom:
+            type: select
+            value: Medium
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+  _overrides:
+    05d5d39a-6949-4f30-8e8f-cd1d366452f2:
+      variant: carousel
+      parameters:
+        title:
+          type: text
+          value: Our smart coffee machines
+        buttonCopy:
+          type: text
+          value: See Coffee Makers
+        buttonLink:
+          type: link
+          value:
+            path: /coffee-makers
+            type: projectMapNode
+            nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        description:
+          type: text
+          value: Coffee machines that learn to optimize for your taste buds
+    1006dd1b-b35b-4ca8-bba8-de80d47ae810:
+      parameters:
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h2
+    4322cc34-6a4c-4585-a0ea-4f526b98c2f4:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+    7b87d3ed-a82a-4e98-94e5-4dbb5c654b66:
+      variant: imageRight
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1695733568/coffee-marketing/glass_of_coffee%28full-size%29.jpg
+        title:
+          type: text
+          value: Become a world-class barista
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: coffeeMakersInterest
+                r: 0
+                op: '>'
+            name: 'Hero: Become a world-class barista'
+        duration:
+          type: select
+          value: medium
+        objectFit:
+          type: select
+          value: cover
+        paddingTop:
+          type: select
+          value: Small
+        description:
+          type: text
+          value: >-
+            our excellent coffee machines turn any newb into a an experienced
+            barista.
+        eyebrowText:
+          type: text
+          value: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+        overlayColor:
+          type: tp-color-style-parameter
+          value: primary
+        animationType:
+          type: select
+          value: flyIn
+        paddingBottom:
+          type: select
+          value: Medium
+        animationOrder:
+          type: select
+          value: oneByOne
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 60%
+        containerVariant:
+          type: select
+          value: fluidContent
+        textColorVariant:
+          type: select
+          value: Light
+        primaryButtonCopy:
+          type: text
+          value: See all coffee makers
+        primaryButtonLink:
+          type: link
+          value:
+            path: /coffee-makers
+            type: projectMapNode
+            nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        primaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    b0fa9f26-3090-46e3-ae99-5267bae098c1:
+      variant: imageLeft
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692267184/coffee-marketing/smart_feature3_zcvjgn_evmdzp_v3erib_mnq8tc.webp
+        title:
+          type: text
+          value: So... you want some beans?
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: coffeeBeansInterest
+                r: 0
+                op: '>'
+            name: 'Hero: Become a world-class barista'
+        duration:
+          type: select
+          value: medium
+        objectFit:
+          type: select
+          value: cover
+        paddingTop:
+          type: select
+          value: Small
+        description:
+          type: text
+          value: We got awesome beans
+        eyebrowText:
+          type: text
+          value: null
+        overlayColor:
+          type: tp-color-style-parameter
+          value: primary
+        animationType:
+          type: select
+          value: flyIn
+        paddingBottom:
+          type: select
+          value: Medium
+        animationOrder:
+          type: select
+          value: oneByOne
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 50%
+        containerVariant:
+          type: select
+          value: fluidContent
+        textColorVariant:
+          type: select
+          value: Light
+        primaryButtonCopy:
+          type: text
+          value: See all beans
+        primaryButtonLink:
+          type: link
+          value:
+            path: /beans
+            type: projectMapNode
+            nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        primaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    e0a70c29-840b-4a52-9657-0ac9c6338f2f:
+      variant: carousel
+      parameters:
+        title:
+          type: text
+          value: Our smart coffee beans
+        buttonCopy:
+          type: text
+          value: See coffee beans
+        buttonLink:
+          type: link
+          value:
+            path: /beans
+            type: projectMapNode
+            nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+        textColorVariant:
+          type: select
+          value: Light
+    f5172334-e2ef-44b6-b0d0-a3887fdbe594:
+      variant: backgroundImage
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692274176/coffee-marketing/photo-1524686788093-aa1f9c0f7c4f_u42drb.png
+        title:
+          type: text
+          value: Hello, stranger!
+        duration:
+          type: select
+          value: medium
+        objectFit:
+          type: select
+          value: cover
+        paddingTop:
+          type: select
+          value: None
+        description:
+          type: text
+          value: we got awesome coffee beans and amazing coffee machine
+        eyebrowText:
+          type: text
+          value: welcome to javadrip
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        animationType:
+          type: select
+          value: fadeIn
+        paddingBottom:
+          type: select
+          value: None
+        animationOrder:
+          type: select
+          value: oneByOne
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 50%
+        containerVariant:
+          type: select
+          value: fluidContent
+        textColorVariant:
+          type: select
+          value: Light
+        primaryButtonCopy:
+          type: text
+          value: Shop beans
+        primaryButtonLink:
+          type: link
+          value:
+            path: /beans
+            type: projectMapNode
+            nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        secondaryButtonCopy:
+          type: text
+          value: Shop machines
+        secondaryButtonLink:
+          type: link
+          value:
+            path: /coffee-makers
+            type: projectMapNode
+            nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        secondaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    05d5d39a-6949-4f30-8e8f-cd1d366452f2|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      variant: ''
+      parameters:
+        badge:
+          type: text
+          value: ${#jptr:/Product Content results Loop Item/subCategories/0}
+        badgeSize:
+          type: select
+          value: md
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonCopy:
+          type: text
+          value: See Details
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              product-slug: ${#jptr:/Product Content results Loop Item/slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Dark
+        lineCountRestriction:
+          type: tp-slider-parameter
+          value: '5'
+    e0a70c29-840b-4a52-9657-0ac9c6338f2f|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      parameters:
+        slug:
+          type: text
+          value: null
+        badge:
+          type: text
+          value: ${#jptr:/Product Content results Loop Item/subCategories/0}
+        badgeSize:
+          type: select
+          value: md
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonCopy:
+          type: text
+          value: See Details
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              product-slug: ${#jptr:/Product Content results Loop Item/slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+        textColorVariant:
+          type: select
+          value: Light
+        lineCountRestriction:
+          type: tp-slider-parameter
+          value: '5'
+created: '2023-10-18T11:48:23.645119+00:00'
+modified: '2023-10-18T12:02:58.544231+00:00'
+pattern: false

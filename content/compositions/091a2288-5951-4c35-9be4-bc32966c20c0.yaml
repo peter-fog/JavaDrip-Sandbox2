@@ -1,0 +1,85 @@
+composition:
+  _name: Hero - Promotion
+  _id: 091a2288-5951-4c35-9be4-bc32966c20c0
+  type: hero
+  variant: imageLeft
+  parameters:
+    image:
+      type: image
+      value: ${#jptr:/Promotions Content/entry/fields/image/value}
+    title:
+      type: text
+      value: ${#jptr:/Promotions Content/entry/fields/title/value}
+    marginTop:
+      type: select
+      value: None
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    description:
+      type: text
+      value: ${#jptr:/Promotions Content/entry/fields/description/value}
+    eyebrowText:
+      type: text
+      value: ${#jptr:/Promotions Content/entry/type}
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+    backgroundType:
+      type: tp-background-type-parameter
+      value: Dark
+    containerVariant:
+      type: select
+      value: fluidContent
+    textColorVariant:
+      type: select
+      value: Light
+  _dataResources:
+    Promotions Content:
+      type: promotions
+      variables:
+        entryId: 8f41a06c-46c7-4313-a02d-b5bc4df68cef
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      delay: 'yes'
+      image: 'yes'
+      title: 'yes'
+      video: 'yes'
+      duration: 'yes'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      fullHeight: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      animationType: 'yes'
+      paddingBottom: 'yes'
+      animationOrder: 'yes'
+      backgroundType: 'yes'
+      overlayOpacity: 'yes'
+      animationPreview: 'yes'
+      containerVariant: 'yes'
+      textColorVariant: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+created: '2023-10-24T21:32:54.723738+00:00'
+modified: '2023-10-25T15:30:17.967203+00:00'
+pattern: true

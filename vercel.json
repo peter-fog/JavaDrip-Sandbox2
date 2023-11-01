@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "sales-demo-reset": false
+    }
+  }
+}

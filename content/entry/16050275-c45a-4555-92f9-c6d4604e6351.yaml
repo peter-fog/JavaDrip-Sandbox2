@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.228625+00:00'
+modified: '2023-10-17T10:42:35.228625+00:00'
+entry:
+  _id: 16050275-c45a-4555-92f9-c6d4604e6351
+  _name: Articles for all your brewing needs
+  _slug: articles-for-all-your-brewing-needs
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269405/coffee-marketing/hero-1_vks69p_uywcq7_r0atem.png
+    title:
+      type: text
+      value: Articles for all your brewing needs
+    description:
+      type: text
+      value: ''

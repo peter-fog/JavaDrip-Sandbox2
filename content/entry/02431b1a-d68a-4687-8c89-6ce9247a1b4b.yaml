@@ -1,0 +1,47 @@
+created: '2023-10-17T07:57:45.859185+00:00'
+modified: '2023-10-17T07:57:45.859185+00:00'
+entry:
+  _id: 02431b1a-d68a-4687-8c89-6ce9247a1b4b
+  _name: Absolute Gem
+  _slug: absolute-gem
+  type: testimonial
+  fields:
+    date:
+      type: text
+      value: ''
+    stars:
+      type: text
+      value: ''
+    title:
+      type: text
+      value: Absolute Gem
+    picture:
+      type: image
+      value: ''
+    lastName:
+      type: text
+      value: García
+    location:
+      type: text
+      value: Madrid
+    firstName:
+      type: text
+      value: Isabella
+    productId:
+      type: text
+      value: peruvian-blend-coffee-134
+    experience:
+      type: text
+      value: >-
+        JavaDrip is an absolute gem among online coffee bean stores! From the
+        moment I discovered them, I was blown away by their exceptional
+        selection of premium coffee beans from around the world. The website's
+        user-friendly interface made browsing a delightful experience, and the
+        detailed descriptions of each bean's flavor profile helped me choose the
+        perfect ones for my taste preferences. The beans arrived promptly,
+        meticulously packaged to preserve freshness, and the aroma that greeted
+        me upon unboxing was simply divine. But it's the taste that truly amazed
+        me – each cup brewed from their beans was a rich, smooth, and heavenly
+        experience. JavaDrip has undoubtedly won me over with their top-notch
+        quality and outstanding customer service. I'm hooked for life and can't
+        wait to explore more of their offerings!

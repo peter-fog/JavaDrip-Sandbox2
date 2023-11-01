@@ -1,0 +1,23 @@
+created: '2023-10-17T05:55:32.635951+00:00'
+modified: '2023-10-17T05:55:32.635951+00:00'
+entry:
+  _id: 4ff180cb-3a00-4cd6-b19b-5e4d779c0dff
+  _name: 25% your next purchase
+  _slug: 25-your-next-purchase
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269211/promotion/25_off_fsfpi4_uqznqb.svg
+    title:
+      type: text
+      value: 25% your next purchase
+    description:
+      type: text
+      value: >-
+        Save 25% on your next purchase. This discount applies to your entire
+        order, excluding shipping.
+
+
+        JD-25-OFF

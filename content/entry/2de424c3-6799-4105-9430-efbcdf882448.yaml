@@ -1,0 +1,38 @@
+created: '2023-10-17T07:36:12.048946+00:00'
+modified: '2023-10-17T07:36:12.048946+00:00'
+entry:
+  _id: 2de424c3-6799-4105-9430-efbcdf882448
+  _name: Specialty Features
+  _slug: specialty-features-da07
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269694/products/JavaDrip_Specialty_-_sizes_vs3bp3_snvkgb.jpg
+    title:
+      type: text
+      value: Specialty Features
+    productId:
+      type: text
+      value: javadrip-specialty-coffee-maker
+    description:
+      type: text
+      value: >-
+        Specialty Brew: Brew super-rich coffee concentrate that you can use to
+        create delicious lattes, macchiatos, cappuccinos, and other
+        coffeehouse-style drinks.
+
+
+        Iced Coffee: Brew fresh over ice for flavorful iced coffee that's never
+        watered down
+
+
+        6 Brew Sizes: Brew anything from a single cup or travel size to a half
+        carafe or a full carafe in your coffee maker
+
+
+        No Pods Required: Up to $200 in annual savings using grounds vs. pods*
+
+
+        Fold-Away Frother: Turns hot or cold milk into silky-smooth froth

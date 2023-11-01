@@ -1,0 +1,130 @@
+composition:
+  _name: Beans
+  _id: 24665bcc-ff19-46b9-80e4-44822a1c7e68
+  _slug: beans
+  type: productCategoryPage
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: int
+          key: b
+          str: 5
+    pageTitle:
+      type: text
+      value: Coffee Beans Page
+  slots:
+    pageFooter:
+      - _id: fdef530a-90f3-43b5-b613-dd36d5cbdca0
+        type: footer
+        _pattern: 77213da4-3e05-4540-ba7b-9f6c040c2989
+    pageHeader:
+      - _id: 7866101c-7fa6-4b9f-83a4-052deb0207aa
+        type: header
+        _pattern: 540af74e-e65b-463e-a949-4e2fe22df873
+    pageContent:
+      - _id: 7a06d6e7-fe14-48eb-b1d0-24c7a346a707
+        type: hero
+        _pattern: b41fe6ea-06ea-4fe3-aab6-f230a56c28d3
+        _dataResources:
+          Product Content:
+            type: algoliaProduct
+            variables:
+              body: >-
+                {"requests":[{"indexName":"products-ngm","objectID":"peruvian-blend-coffee-134"}]}
+              entryIds: peruvian-blend-coffee-134
+              facetValue: ''
+          Testimonial Content:
+            type: contentstackTestimonial
+            variables:
+              asc: ''
+              desc: ''
+              limit: '1'
+              query: >-
+                { "product_id": { "$regex": "peruvian-blend-coffee-134",
+                "$options": "i" } }
+              locale: ''
+              include: ''
+              keyword: peruvian-blend-coffee-134
+              sortOrder: asc
+              sortFieldId: ''
+              content_type_uid: testimonial
+      - _id: 87355915-a0a9-4c82-8fec-dbc14b9b864b
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 31f02761-aa87-40a8-9883-84bdecd13992
+        type: algolia-instantSearch
+        _pattern: 74d0ae67-7701-4123-9832-1844a9d26c79
+      - _id: f389835d-0916-447a-919b-1ff20d72d8aa
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+  _overrides:
+    31f02761-aa87-40a8-9883-84bdecd13992:
+      parameters:
+        rootCategory:
+          type: select
+          value: Beans
+    7866101c-7fa6-4b9f-83a4-052deb0207aa:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+    7a06d6e7-fe14-48eb-b1d0-24c7a346a707:
+      parameters:
+        objectFit:
+          type: select
+          value: contain
+        paddingTop:
+          type: select
+          value: Small
+        paddingBottom:
+          type: select
+          value: Medium
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+        containerVariant:
+          type: select
+          value: fluidContent
+        textColorVariant:
+          type: select
+          value: Light
+        primaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    31f02761-aa87-40a8-9883-84bdecd13992|4ec65e7d-e8be-49ee-bf3b-8c7e8f263bb2:
+      parameters:
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Dark
+created: '2023-10-18T13:26:44.774213+00:00'
+modified: '2023-10-18T13:32:42.654893+00:00'
+pattern: false

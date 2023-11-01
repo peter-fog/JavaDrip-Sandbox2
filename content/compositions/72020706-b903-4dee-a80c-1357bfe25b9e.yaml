@@ -1,0 +1,105 @@
+composition:
+  _name: Hero (cs)
+  _id: 72020706-b903-4dee-a80c-1357bfe25b9e
+  type: hero
+  variant: backgroundImage
+  parameters:
+    image:
+      type: image
+      value: ${#jptr:/Hero Content/entry/image}
+    title:
+      type: text
+      value: ${#jptr:/Hero Content/entry/title}
+    duration:
+      type: select
+      value: medium
+    marginTop:
+      type: select
+      value: None
+    objectFit:
+      type: select
+      value: cover
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    description:
+      type: text
+      value: ${#jptr:/Hero Content/entry/description}
+    marginBottom:
+      type: select
+      value: None
+    overlayColor:
+      type: tp-color-style-parameter
+      value: base-300
+    animationType:
+      type: select
+      value: flyIn
+    paddingBottom:
+      type: select
+      value: None
+    animationOrder:
+      type: select
+      value: oneByOne
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 50%
+    containerVariant:
+      type: select
+      value: fluidContent
+  _dataResources:
+    Hero Content:
+      type: contentstackHero
+      variables:
+        query: ''
+        locale: ''
+        include: ''
+        entry_uid: blt7e89f529b5eccbf8
+        content_type_uid: content_block
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      delay: 'yes'
+      image: 'yes'
+      title: 'yes'
+      video: 'yes'
+      duration: 'yes'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      fullHeight: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      animationType: 'yes'
+      group_content: 'yes'
+      paddingBottom: 'yes'
+      animationOrder: 'yes'
+      backgroundType: 'yes'
+      overlayOpacity: 'yes'
+      animationPreview: 'yes'
+      containerVariant: 'yes'
+      group_primaryCta: 'yes'
+      textColorVariant: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      group_secondaryCta: 'yes'
+      primaryButtonStyle: 'yes'
+      group_imageSettings: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+created: '2023-10-05T09:07:50.132301+00:00'
+modified: '2023-10-24T12:33:26.071997+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Hero_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

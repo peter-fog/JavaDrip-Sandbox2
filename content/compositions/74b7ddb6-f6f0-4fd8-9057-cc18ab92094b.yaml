@@ -1,0 +1,48 @@
+composition:
+  _name: Call to Action (cf)
+  _id: 74b7ddb6-f6f0-4fd8-9057-cc18ab92094b
+  type: callToAction
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Call to Action Content/fields/title}
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      value: ${#jptr:/Call to Action Content/fields/description}
+  _dataResources:
+    Call to Action Content:
+      type: contentfulCallToAction
+      variables:
+        locale: en-US
+        entryIds: 4Ahfo3Z8XXPN22mpUeFOlJ
+        contentTypeId: contentBlock
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      title: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      group_content: 'yes'
+      group_primaryCta: 'yes'
+      textColorVariant: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      group_secondaryCta: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+created: '2023-10-18T11:48:23.094742+00:00'
+modified: '2023-10-18T12:17:59.077067+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Call_to_Action_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5

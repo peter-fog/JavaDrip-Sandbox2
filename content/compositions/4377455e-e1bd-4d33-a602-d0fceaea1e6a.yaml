@@ -1,0 +1,95 @@
+composition:
+  _name: Reviews (cf)
+  _id: 4377455e-e1bd-4d33-a602-d0fceaea1e6a
+  type: grid
+  parameters:
+    gapX:
+      type: tp-slider-parameter
+      value: medium
+    gapY:
+      type: tp-slider-parameter
+      value: none
+    title:
+      type: text
+      value: Reviews
+    columnsCount:
+      type: tp-slider-parameter
+      value: '1'
+  slots:
+    grid-inner:
+      - _id: 46df9f2d-a2b9-4011-b16a-6ed4a83b214b
+        type: $loop
+        slots:
+          body:
+            - _id: 4aeee2e3-e311-4d19-a047-1c3a7e68d443
+              type: review
+              variant: multiColumn
+              parameters:
+                date:
+                  type: text
+                  value: ${#jptr:/Reviews Content items Loop Item/fields/date}
+                stars:
+                  type: tp-slider-parameter
+                  value: '5'
+                title:
+                  type: text
+                  value: ${#jptr:/Reviews Content items Loop Item/fields/title}
+                personName:
+                  type: text
+                  value: >-
+                    ${#jptr:/Reviews Content items Loop Item/fields/firstName}
+                    ${#jptr:/Reviews Content items Loop Item/fields/lastName}
+                description:
+                  type: text
+                  value: ${#jptr:/Reviews Content items Loop Item/fields/experience}
+                textColorVariant:
+                  type: select
+                  value: Dark
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                variants: true
+                parameters:
+                  date: 'yes'
+                  stars: 'yes'
+                  title: 'yes'
+                  picture: 'yes'
+                  personName: 'yes'
+                  starsColor: 'yes'
+                  description: 'yes'
+                  showReviewLabel: 'yes'
+                  textColorVariant: 'yes'
+                  lineCountRestriction: 'yes'
+        _dataResources:
+          Reviews Content items Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: /Reviews Content/items
+  _dataResources:
+    Reviews Content:
+      type: contentfulReviews
+      variables:
+        limit: '2'
+        order: sys.updatedAt
+        locale: ''
+        filters: ''
+        keyword: ''
+        sortOrder: asc
+        searchValue: ''
+        sortFieldId: sys.updatedAt
+        contentTypeId: testimonial
+        advancedFilters: '[]'
+        contentTypeQuery: content_type=testimonial
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      gapX: 'yes'
+      gapY: 'yes'
+      title: 'yes'
+      columnsCount: 'yes'
+created: '2023-10-18T11:48:22.740889+00:00'
+modified: '2023-10-23T09:45:44.142743+00:00'
+pattern: true
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5

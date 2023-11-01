@@ -1,0 +1,24 @@
+created: '2023-10-17T05:54:43.716587+00:00'
+modified: '2023-10-17T05:54:43.716587+00:00'
+entry:
+  _id: da54b631-13fe-43b8-a427-01d1b8ea430d
+  _name: The home of coffee obsessives
+  _slug: the-home-of-coffee-obsessives
+  type: callToAction
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269405/coffee-marketing/hero-1_vks69p_uywcq7_r0atem.png
+    title:
+      type: text
+      value: The home of coffee obsessives
+    description:
+      type: text
+      value: >-
+        Welcome to JavaDrip. We are a boutique coffee company obsessed with the
+        perfect cup of coffee. We believe that the perfect cup starts with the
+        perfect bean and that those beans require the perfect brewing method.
+        This means that we offer both high quality beans and products to meet
+        any occasion and mood. Have a look around and let us know if you have
+        any questions.

@@ -1,0 +1,18 @@
+created: '2023-10-17T05:54:44.06121+00:00'
+modified: '2023-10-17T05:54:44.06121+00:00'
+entry:
+  _id: a4186dbf-a5c6-4f5c-8efe-ddd287457182
+  _name: We have great promotions
+  _slug: we-have-great-promotions
+  type: callToAction
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692269452/coffee-marketing/nathan-dumlao-6VhPY27jdps-unsplash_ixfcbh_afbfab.jpg
+    title:
+      type: text
+      value: We have great promotions
+    description:
+      type: text
+      value: Right in your inbox every week

@@ -1,0 +1,24 @@
+created: '2023-10-17T05:55:32.65254+00:00'
+modified: '2023-10-17T05:55:32.65254+00:00'
+entry:
+  _id: 8f41a06c-46c7-4313-a02d-b5bc4df68cef
+  _name: Free shipping
+  _slug: free-shipping
+  type: promotions
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692268309/promotion/free-shipping_fb7pz8_ymvn3g.svg
+    title:
+      type: text
+      value: Free shipping
+    description:
+      type: text
+      value: >-
+        For our frequent shoppers, we're offering Free shipping when you
+        purchase one item and add another item of equal or lesser value to your
+        order. Now is your time to stock up on the products you love.
+
+
+        2ME4FREE

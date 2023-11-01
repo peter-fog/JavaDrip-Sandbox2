@@ -1,0 +1,36 @@
+created: '2023-10-17T07:36:11.820729+00:00'
+modified: '2023-10-17T07:36:11.820729+00:00'
+entry:
+  _id: f75ba25f-3154-4a20-9fd8-88184c12c145
+  _name: JavaDrip Specialty Overview
+  _slug: javadrip-specialty-overview
+  type: productFeature
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1693408736/products/JavaDrip_Specialty_-_Primary_c8wmcu.jpg
+    title:
+      type: text
+      value: JavaDrip Specialty Overview
+    productId:
+      type: text
+      value: javadrip-specialty-coffee-maker
+    description:
+      type: text
+      value: >-
+        Start each and every morning off right with tasty coffee brewed with
+        this JavaDrip coffee maker! An essential small appliance for any
+        kitchen, a coffee maker is sure to be used on a daily basis. No matter
+        if you're a decaf drinker, or are looking to brew a strong cup of joe to
+        get you up and moving, this JavaDrip coffee maker is sure to get the job
+        done!
+
+
+        The Specialty coffee maker offers plenty of features that help you
+        create a fresh-brewed cup of your favorite beverage. Combine super-rich
+        coffee concentrates with hot or cold frothed milk to create delicious
+        coffeehouse-style drinks, or enjoy flavorful iced coffee that never
+        tastes watered down. The unique design also allows you to brew anything
+        from a single cup to a half- or full-carafe using your favorite grounds
+        - no pods required.

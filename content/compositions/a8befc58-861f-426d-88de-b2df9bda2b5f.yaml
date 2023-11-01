@@ -1,0 +1,52 @@
+composition:
+  _name: Hero - Coupon (uc)
+  _id: a8befc58-861f-426d-88de-b2df9bda2b5f
+  type: couponHero
+  parameters:
+    icon:
+      type: cloudinary-image
+      value:
+        - alt: ''
+          url: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692268309/promotion/free-shipping_fb7pz8_ymvn3g.svg
+          uuid: da82cf45-2022-48cf-9a57-9cf9c4f86e78
+          width: '113'
+          format: svg
+          height: '113'
+          caption: ''
+          version: 1692268309
+          publicId: promotion/free-shipping_fb7pz8_ymvn3g
+          createdAt: '2023-08-17T10:31:49Z'
+          previewUrl: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/q_auto,f_auto/promotion/free-shipping_fb7pz8_ymvn3g.svg
+          resourceType: image
+          transformation: ''
+    title:
+      type: text
+      value: ${#jptr:/Call To Action Content/entry/fields/title/value}
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h3
+    textColorVariant:
+      type: select
+      value: Light
+  _dataResources:
+    Call To Action Content:
+      type: callToAction
+      variables:
+        entryId: e7cfb2f1-afe4-431d-bbad-44232a9a7d1e
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      icon: 'yes'
+      image: 'yes'
+      title: 'yes'
+      couponCode: 'yes'
+      titleStyle: 'yes'
+      eyebrowText: 'yes'
+      overlayOpacity: 'yes'
+      textColorVariant: 'yes'
+created: '2023-10-24T17:46:40.941866+00:00'
+modified: '2023-10-24T21:30:04.880097+00:00'
+pattern: true

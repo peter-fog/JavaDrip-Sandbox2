@@ -1,0 +1,18 @@
+created: '2023-10-17T10:42:35.024703+00:00'
+modified: '2023-10-17T10:42:35.024703+00:00'
+entry:
+  _id: c90d4a53-3237-4bd1-9790-045fe632ee0e
+  _name: Engineering goes better...
+  _slug: engineering-goes-better-c214
+  type: hero
+  fields:
+    image:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692268646/coffee-marketing/photo-1621112904899-d14ce062bea8_hfmqoo.png
+    title:
+      type: text
+      value: Engineering goes better...
+    description:
+      type: text
+      value: with Turkish Coffee

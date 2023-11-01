@@ -1,0 +1,35 @@
+id: contentfulProductFeature
+displayName: Product Feature
+ttl: 30
+path: /entries
+custom:
+  include: 2
+  imagePath: image
+  searchField:
+    id: fields.productId
+    type: Symbol
+  allowContentTypeIds:
+    - productFeature
+  enableFilterByLocale: false
+  enableAdvancedFilters: false
+method: GET
+purgeKey: aaadcc47-67d6-4689-8c4a-4901bdfe1302
+archetype: singleEntry
+variables:
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+parameters:
+  - key: include
+    value: '2'
+  - key: locale
+    value: ${locale}
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: contentfulDataSource
+allowedOnComponents: []
