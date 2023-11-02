@@ -39,6 +39,14 @@ export const ContentBlock: FC<ContentBlockProps> = ({ titleStyle: TitleTag = 'h1
           className={classNames('font-medium', getTextClass(TitleTag), styles?.title)}
         />
       </Wrapper>
+      <Wrapper>
+        <UniformText
+          placeholder="SubTitle goes here"
+          parameterId="subtitle"
+          as={TitleTag}
+          className={classNames('font-small', getTextClass(TitleTag), styles?.title)}
+        />
+      </Wrapper>
       {content ? (
         <div
           className="py-6 text-xl"

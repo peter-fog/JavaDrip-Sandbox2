@@ -4,11 +4,13 @@ import { ContentBlock } from './ContentBlock';
 
 type Styles = {
   title?: string;
+  subtitle?: string;
   text?: string;
 };
 export type ContentBlockProps = ComponentProps<{
   title?: string;
   titleStyle: Types.HeadingStyles;
+  subtitle?: string;
   link?: Types.ProjectMapLink;
   text: string;
   content?: string | Document;
