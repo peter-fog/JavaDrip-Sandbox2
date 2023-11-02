@@ -10,7 +10,6 @@ type Styles = {
 export type ContentBlockProps = ComponentProps<{
   title?: string;
   titleStyle: Types.HeadingStyles;
-  subtitle?: string;
   link?: Types.ProjectMapLink;
   text: string;
   content?: string | Document;
